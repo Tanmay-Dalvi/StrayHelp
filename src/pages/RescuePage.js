@@ -24,7 +24,7 @@ const RescuePage = () => {
     setProfile1Open(false);
   }, []);
 
-  const onContactDrBtnClick = useCallback(() => {
+  const onContactDrClick = useCallback(() => {
     navigate("/doctors-page");
   }, [navigate]);
 
@@ -35,20 +35,20 @@ const RescuePage = () => {
   return (
     <>
       <div className="rescue-page-2">
-        <nav className="header5">
-          <div className="nav5">
-            <div className="logo5">
-              <img className="logo-icon6" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name6">StrayHelp</p>
+        <nav className="header8">
+          <div className="nav8">
+            <div className="logo8">
+              <img className="logo-icon9" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name9">StrayHelp</p>
             </div>
-            <div className="links5">
-              <button className="home5" onClick={onHomeClick}>
+            <div className="links8">
+              <button className="home8" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about5" onClick={onAboutClick}>
+              <button className="about8" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile5" onClick={openProfile1}>
+              <button className="profile8" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -72,17 +72,17 @@ const RescuePage = () => {
           <div className="select">
             <h2 className="select1">Select</h2>
           </div>
-          <div className="buttons">
-            <button className="contact-dr" onClick={onContactDrBtnClick}>
+          <div className="buttons2">
+            <button className="contact-dr" onClick={onContactDrClick}>
               <div className="contact-doctor">Contact Doctor</div>
             </button>
             <button className="contact-dr" onClick={onVolunteerBtnClick}>
               <div className="call-for-help">Call for Help</div>
             </button>
           </div>
-          <footer className="logo6">
-            <img className="logo-icon7" alt="" src="/logo-icon3@2x.png" />
-            <p className="logo-name7">StrayHelp</p>
+          <footer className="logo9">
+            <img className="logo-icon10" alt="" src="/logo-icon@2x.png" />
+            <p className="logo-name10">StrayHelp</p>
           </footer>
         </div>
       </div>

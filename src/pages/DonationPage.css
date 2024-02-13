@@ -1,4 +1,4 @@
-.logo-icon3 {
+.logo-icon4 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name3 {
+.logo-name4 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo2 {
+.logo3 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home2 {
+.home3 {
   width: 40px;
 }
-.about2:hover,
-.home2:hover,
-.profile2:hover {
+.about3:hover,
+.home3:hover,
+.profile3:hover {
   color: var(--color-deepskyblue-200);
 }
-.about2,
-.home2,
-.profile2 {
+.about3,
+.home3,
+.profile3 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,33 +48,33 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about2 {
+.about3 {
   width: 44px;
   height: 21px;
 }
-.profile2 {
+.profile3 {
   width: 48px;
 }
-.links2 {
+.links3 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.header2,
-.links2,
-.nav2 {
+.header3,
+.links3,
+.nav3 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.nav2 {
+.nav3 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header2 {
+.header3 {
   margin: 0;
   align-self: stretch;
   background-color: var(--color-paleturquoise);
@@ -105,24 +105,13 @@
   justify-content: center;
   padding: var(--padding-3xs);
 }
+.donation-motiive,
 .why-to-donate {
   margin: 0;
   position: relative;
 }
-.question {
-  align-self: stretch;
-  height: 51px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
 .donation-motiive {
-  margin: 0;
   width: 515px;
-  position: relative;
   font-weight: 300;
   display: inline-block;
   flex-shrink: 0;
@@ -150,6 +139,16 @@
 .feature-text {
   margin: 0;
   position: relative;
+}
+.help-features {
+  align-self: stretch;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
 }
 .food-child {
   width: 80px;
@@ -287,7 +286,7 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .header2 {
+  .header3 {
     width: 960px;
     height: 60px;
     align-items: center;
@@ -302,23 +301,23 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon3 {
+  .logo-icon4 {
     width: 20px;
     height: 20px;
   }
-  .logo-name3 {
+  .logo-name4 {
     font-size: var(--font-size-mini);
   }
-  .logo2 {
+  .logo3 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about2,
-  .home2,
-  .profile2 {
+  .about3,
+  .home3,
+  .profile3 {
     font-size: var(--font-size-xs);
   }
-  .links2 {
+  .links3 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
@@ -326,19 +325,19 @@
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
-  .header2,
-  .links2,
-  .nav2 {
+  .header3,
+  .links3,
+  .nav3 {
     align-items: center;
     justify-content: center;
   }
-  .nav2 {
+  .nav3 {
     flex-direction: row;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .header2 {
+  .header3 {
     align-self: stretch;
     width: auto;
     height: auto;

@@ -48,20 +48,20 @@ const SignInPage = () => {
   return (
     <>
       <div className="sign-in-page">
-        <nav className="header9">
-          <div className="nav9">
-            <div className="logo11">
-              <img className="logo-icon12" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name12">StrayHelp</p>
+        <nav className="header12">
+          <div className="nav12">
+            <div className="logo14">
+              <img className="logo-icon15" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name15">StrayHelp</p>
             </div>
-            <div className="links9">
-              <button className="home9" onClick={onHomeClick}>
+            <div className="links12">
+              <button className="home12" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about9" onClick={onAboutClick}>
+              <button className="about12" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile9" onClick={openProfile1}>
+              <button className="profile12" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -74,13 +74,13 @@ const SignInPage = () => {
             </div>
             <div className="login-section">
               <div className="email-pass-section1">
-                <div className="email-section1">
+                <div className="email-section2">
                   <div className="password-head">
                     <p className="password">Email</p>
                   </div>
                   <div className="password-space">
                     <TextField
-                      className="email-input1"
+                      className="email-input2"
                       color="primary"
                       required={true}
                       variant="outlined"
@@ -95,7 +95,7 @@ const SignInPage = () => {
                   </div>
                   <div className="password-space">
                     <TextField
-                      className="email-input1"
+                      className="email-input2"
                       color="primary"
                       required={true}
                       variant="outlined"
@@ -162,9 +162,9 @@ const SignInPage = () => {
             <div className="login2">Login</div>
           </div>
           <div className="email-pass-section2">
-            <div className="email-section2">
+            <div className="email-section3">
               <div className="email-head2">
-                <p className="email9">Email</p>
+                <p className="email10">Email</p>
               </div>
               <div className="input-box">
                 <TextField
@@ -182,7 +182,7 @@ const SignInPage = () => {
             </div>
             <div className="pass-section">
               <div className="pass-head">
-                <p className="email9">Password</p>
+                <p className="email10">Password</p>
               </div>
               <div className="input-box">
                 <TextField
@@ -228,7 +228,7 @@ const SignInPage = () => {
                 <img
                   className="clip-path-group2"
                   alt=""
-                  src="/clip-path-group1.svg"
+                  src="/clip-path-group.svg"
                 />
               </button>
             </div>

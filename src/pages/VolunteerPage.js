@@ -28,20 +28,20 @@ const VolunteerPage = () => {
   return (
     <>
       <div className="volunteer-page">
-        <nav className="header12">
-          <div className="nav12">
-            <div className="logo14">
-              <img className="logo-icon15" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name15">StrayHelp</p>
+        <nav className="header2">
+          <div className="nav2">
+            <div className="logo2">
+              <img className="logo-icon3" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name3">StrayHelp</p>
             </div>
-            <div className="links12">
-              <button className="home12" onClick={onHomeClick}>
+            <div className="links2">
+              <button className="home2" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about12" onClick={onAboutClick}>
+              <button className="about2" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile12" onClick={openProfile1}>
+              <button className="profile2" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -68,35 +68,35 @@ const VolunteerPage = () => {
           </div>
           <div className="volunteer-form">
             <div className="form-heading">
-              <p className="your-email">JOIN US!</p>
+              <p className="your-name">JOIN US!</p>
             </div>
-            <div className="interest-section">
-              <div className="phone-number">
-                <p className="your-email">Your Name</p>
+            <div className="name-section">
+              <div className="name">
+                <p className="your-name">Your Name</p>
               </div>
-              <div className="interest-input">
+              <div className="name-input">
                 <input className="name-input-child" type="text" />
               </div>
             </div>
-            <div className="phone-number-section">
-              <div className="phone-number">
-                <p className="your-email">Your Email</p>
+            <div className="email-section">
+              <div className="name">
+                <p className="your-name">Your Email</p>
               </div>
-              <div className="interest-input">
+              <div className="name-input">
                 <input className="name-input-child" type="email" />
               </div>
             </div>
-            <div className="phone-number-section">
-              <div className="phone-number">
-                <p className="your-email">Phone Number</p>
+            <div className="email-section">
+              <div className="name">
+                <p className="your-name">Phone Number</p>
               </div>
               <div className="ph-no-input">
                 <input className="ph-no-input-child" type="tel" />
               </div>
             </div>
             <div className="animal-lover-section">
-              <div className="question1">
-                <p className="your-email">Are you Animal Lover?</p>
+              <div className="question">
+                <p className="your-name">Are you Animal Lover?</p>
               </div>
               <div className="answers">
                 <div className="yes-option">
@@ -117,19 +117,19 @@ const VolunteerPage = () => {
                 </div>
               </div>
             </div>
-            <div className="interest-section">
-              <div className="phone-number">
+            <div className="name-section">
+              <div className="name">
                 <p className="your-interest-how-container">
                   <span>{`Your Interest   `}</span>
                   <span className="how-can-you">(How can you help us)</span>
                 </p>
               </div>
-              <div className="interest-input">
+              <div className="name-input">
                 <input className="name-input-child" type="text" />
               </div>
             </div>
-            <div className="interest-section">
-              <div className="phone-number">
+            <div className="name-section">
+              <div className="name">
                 <p className="your-interest-how-container">
                   <span>{`Area  `}</span>
                   <span className="where-you-want">
@@ -142,8 +142,8 @@ const VolunteerPage = () => {
               </div>
             </div>
             <div className="time-section">
-              <div className="phone-number">
-                <p className="your-email">
+              <div className="name">
+                <p className="your-name">
                   <span>Hours per Week</span>
                   <span className="where-you-want">
                     {" "}
@@ -155,14 +155,14 @@ const VolunteerPage = () => {
                 <input className="name-input-child" type="text" />
               </div>
             </div>
-            <div className="interest-section">
-              <div className="phone-number">
+            <div className="name-section">
+              <div className="name">
                 <p className="your-interest-how-container">
                   <span>Previous Experience</span>
                   <span className="where-you-want"> (If any)</span>
                 </p>
               </div>
-              <div className="interest-input">
+              <div className="name-input">
                 <input className="name-input-child" type="text" />
               </div>
             </div>

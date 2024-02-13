@@ -32,20 +32,20 @@ const ContactVolPage = () => {
   return (
     <>
       <div className="contact-vol-page">
-        <nav className="header3">
-          <div className="nav3">
-            <div className="logo3">
-              <img className="logo-icon4" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name4">StrayHelp</p>
+        <nav className="header6">
+          <div className="nav6">
+            <div className="logo6">
+              <img className="logo-icon7" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name7">StrayHelp</p>
             </div>
-            <div className="links3">
-              <button className="home3" onClick={onHomeClick}>
+            <div className="links6">
+              <button className="home6" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about3" onClick={onAboutClick}>
+              <button className="about6" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile3" onClick={openProfile1}>
+              <button className="profile6" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -98,7 +98,7 @@ const ContactVolPage = () => {
                 <img
                   className="vlntr-img-icon1"
                   alt=""
-                  src="/vlntr-img1@2x.png"
+                  src="/vlntr-img@2x.png"
                 />
                 <p className="vlntr-name1">Mr. David Rodrigez</p>
               </div>
@@ -117,7 +117,7 @@ const ContactVolPage = () => {
                 <img
                   className="vlntr-img-icon1"
                   alt=""
-                  src="/vlntr-img2@2x.png"
+                  src="/vlntr-img@2x.png"
                 />
                 <p className="vlntr-name2">Ms. Elena Petrov</p>
               </div>
@@ -136,7 +136,7 @@ const ContactVolPage = () => {
                 <img
                   className="vlntr-img-icon1"
                   alt=""
-                  src="/vlntr-img3@2x.png"
+                  src="/vlntr-img@2x.png"
                 />
                 <p className="vlntr-name1">Mr. Mac Thompson</p>
               </div>
@@ -158,7 +158,7 @@ const ContactVolPage = () => {
                   <img
                     className="vlntr-img-icon4"
                     alt=""
-                    src="/vlntr-img4@2x.png"
+                    src="/vlntr-img@2x.png"
                   />
                   <p className="vlntr-name4">Mr. Oliver Jenkins</p>
                 </div>
@@ -167,7 +167,7 @@ const ContactVolPage = () => {
                 </div>
                 <button className="call-vlntr4">
                   <div className="vector4">
-                    <img className="vector-icon" alt="" src="/vector1.svg" />
+                    <img className="vector-icon" alt="" src="/vector.svg" />
                   </div>
                   <p className="call4">Call</p>
                 </button>
@@ -177,7 +177,7 @@ const ContactVolPage = () => {
                   <img
                     className="vlntr-img-icon4"
                     alt=""
-                    src="/vlntr-img5@2x.png"
+                    src="/vlntr-img@2x.png"
                   />
                   <p className="vlntr-name4">Ms. Elena Petrov</p>
                 </div>
@@ -186,7 +186,7 @@ const ContactVolPage = () => {
                 </div>
                 <button className="call-vlntr4">
                   <div className="vector4">
-                    <img className="vector-icon" alt="" src="/vector1.svg" />
+                    <img className="vector-icon" alt="" src="/vector.svg" />
                   </div>
                   <p className="call4">Call</p>
                 </button>
@@ -196,7 +196,7 @@ const ContactVolPage = () => {
                   <img
                     className="vlntr-img-icon4"
                     alt=""
-                    src="/vlntr-img6@2x.png"
+                    src="/vlntr-img@2x.png"
                   />
                   <p className="vlntr-name4">Mr. Raj More</p>
                 </div>
@@ -205,7 +205,7 @@ const ContactVolPage = () => {
                 </div>
                 <button className="call-vlntr4">
                   <div className="vector4">
-                    <img className="vector-icon" alt="" src="/vector1.svg" />
+                    <img className="vector-icon" alt="" src="/vector.svg" />
                   </div>
                   <p className="call4">Call</p>
                 </button>
@@ -215,7 +215,7 @@ const ContactVolPage = () => {
                   <img
                     className="vlntr-img-icon4"
                     alt=""
-                    src="/vlntr-img7@2x.png"
+                    src="/vlntr-img@2x.png"
                   />
                   <p className="vlntr-name4">Mr. David Rodrigez</p>
                 </div>
@@ -224,7 +224,7 @@ const ContactVolPage = () => {
                 </div>
                 <button className="call-vlntr4">
                   <div className="vector4">
-                    <img className="vector-icon" alt="" src="/vector1.svg" />
+                    <img className="vector-icon" alt="" src="/vector.svg" />
                   </div>
                   <p className="call4">Call</p>
                 </button>

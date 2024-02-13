@@ -1,4 +1,4 @@
-.logo-icon4 {
+.logo-icon7 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name4 {
+.logo-name7 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo3 {
+.logo6 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home3 {
+.home6 {
   width: 40px;
 }
-.about3:hover,
-.home3:hover,
-.profile3:hover {
+.about6:hover,
+.home6:hover,
+.profile6:hover {
   color: var(--color-deepskyblue-200);
 }
-.about3,
-.home3,
-.profile3 {
+.about6,
+.home6,
+.profile6 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,33 +48,33 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about3 {
+.about6 {
   width: 44px;
   height: 21px;
 }
-.profile3 {
+.profile6 {
   width: 48px;
 }
-.links3 {
+.links6 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.header3,
-.links3,
-.nav3 {
+.header6,
+.links6,
+.nav6 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.nav3 {
+.nav6 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header3 {
+.header6 {
   margin: 0;
   align-self: stretch;
   height: 155px;
@@ -505,7 +505,7 @@
   font-family: var(--font-k2d);
 }
 @media screen and (max-width: 960px) {
-  .header3 {
+  .header6 {
     width: 960px;
     height: 120px;
     align-items: center;
@@ -517,23 +517,23 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon4 {
+  .logo-icon7 {
     width: 20px;
     height: 20px;
   }
-  .logo-name4 {
+  .logo-name7 {
     font-size: var(--font-size-mini);
   }
-  .logo3 {
+  .logo6 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about3,
-  .home3,
-  .profile3 {
+  .about6,
+  .home6,
+  .profile6 {
     font-size: var(--font-size-xs);
   }
-  .links3 {
+  .links6 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
@@ -542,16 +542,16 @@
     padding-left: 0;
     padding-right: var(--padding-6xl);
   }
-  .header3,
-  .links3,
-  .nav3 {
+  .header6,
+  .links6,
+  .nav6 {
     box-sizing: border-box;
   }
-  .nav3 {
+  .nav6 {
     padding-left: 0;
     padding-right: 0;
   }
-  .header3 {
+  .header6 {
     width: 420px;
     height: 60px;
     gap: var(--gap-859xl);

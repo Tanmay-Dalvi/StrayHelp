@@ -1,4 +1,4 @@
-.logo-icon6 {
+.logo-icon9 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name6 {
+.logo-name9 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo5 {
+.logo8 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home5 {
+.home8 {
   width: 40px;
 }
-.about5:hover,
-.home5:hover,
-.profile5:hover {
+.about8:hover,
+.home8:hover,
+.profile8:hover {
   color: var(--color-deepskyblue-200);
 }
-.about5,
-.home5,
-.profile5 {
+.about8,
+.home8,
+.profile8 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,39 +48,39 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about5 {
+.about8 {
   width: 44px;
   height: 21px;
 }
-.profile5 {
+.profile8 {
   width: 48px;
 }
-.links5,
-.nav5 {
+.links8,
+.nav8 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.links5 {
+.links8 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.nav5 {
+.nav8 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header5,
+.header8,
 .rescue-quote1,
 .rescue3 {
   margin: 0;
   align-self: stretch;
   flex-shrink: 0;
 }
-.header5 {
+.header8 {
   height: 155px;
   background-color: var(--color-paleturquoise);
   overflow: hidden;
@@ -211,7 +211,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.buttons {
+.buttons2 {
   align-self: stretch;
   height: 92px;
   overflow: hidden;
@@ -222,7 +222,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.logo-icon7 {
+.logo-icon10 {
   width: 40px;
   position: relative;
   border-radius: 50%;
@@ -230,12 +230,12 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name7 {
+.logo-name10 {
   margin: 0;
   position: relative;
   font-weight: 500;
 }
-.logo6 {
+.logo9 {
   align-self: stretch;
   height: 62px;
   overflow: hidden;
@@ -278,7 +278,7 @@
   font-family: var(--font-k2d);
 }
 @media screen and (max-width: 960px) {
-  .header5 {
+  .header8 {
     width: 960px;
     height: 120px;
     align-items: center;
@@ -294,23 +294,23 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon6 {
+  .logo-icon9 {
     width: 20px;
     height: 20px;
   }
-  .logo-name6 {
+  .logo-name9 {
     font-size: var(--font-size-mini);
   }
-  .logo5 {
+  .logo8 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about5,
-  .home5,
-  .profile5 {
+  .about8,
+  .home8,
+  .profile8 {
     font-size: var(--font-size-xs);
   }
-  .links5 {
+  .links8 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
@@ -319,16 +319,16 @@
     padding-left: 0;
     padding-right: var(--padding-6xl);
   }
-  .header5,
-  .links5,
-  .nav5 {
+  .header8,
+  .links8,
+  .nav8 {
     box-sizing: border-box;
   }
-  .nav5 {
+  .nav8 {
     padding-left: 0;
     padding-right: 0;
   }
-  .header5 {
+  .header8 {
     width: 420px;
     height: 60px;
     gap: var(--gap-859xl);
@@ -366,11 +366,11 @@
     font-size: var(--font-size-sm);
     text-align: center;
   }
-  .logo-icon7 {
+  .logo-icon10 {
     width: 25px;
     height: 25px;
   }
-  .logo-name7 {
+  .logo-name10 {
     font-size: var(--font-size-6xl);
   }
   .rescue-2 {

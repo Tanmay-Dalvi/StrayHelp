@@ -1,4 +1,4 @@
-.logo-icon12 {
+.logo-icon15 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name12 {
+.logo-name15 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo11 {
+.logo14 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home9 {
+.home12 {
   width: 40px;
 }
-.about9:hover,
-.home9:hover,
-.profile9:hover {
+.about12:hover,
+.home12:hover,
+.profile12:hover {
   color: var(--color-deepskyblue-200);
 }
-.about9,
-.home9,
-.profile9 {
+.about12,
+.home12,
+.profile12 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,32 +48,32 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about9 {
+.about12 {
   width: 44px;
   height: 21px;
 }
-.profile9 {
+.profile12 {
   width: 48px;
 }
-.links9,
-.nav9 {
+.links12,
+.nav12 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.links9 {
+.links12 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.nav9 {
+.nav12 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header9,
+.header12,
 .login,
 .login-text {
   align-self: stretch;
@@ -81,7 +81,7 @@
   align-items: center;
   justify-content: center;
 }
-.header9 {
+.header12 {
   margin: 0;
   height: 155px;
   background-color: var(--color-paleturquoise);
@@ -112,14 +112,14 @@
   padding: var(--padding-3xs);
   font-size: var(--font-size-13xl);
 }
-.email-input1 {
+.email-input2 {
   border: 0;
   background-color: transparent;
   align-self: stretch;
   flex: 1;
   position: relative;
 }
-.email-section1 {
+.email-section2 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -368,7 +368,7 @@
   padding: var(--padding-3xs);
   box-sizing: border-box;
 }
-.email9 {
+.email10 {
   margin: 0;
   position: relative;
   font-weight: 300;
@@ -389,7 +389,7 @@
   width: 220px;
   position: relative;
 }
-.email-section2,
+.email-section3,
 .input-box,
 .pass-head {
   width: 240px;
@@ -403,7 +403,7 @@
   padding: var(--padding-3xs);
   box-sizing: border-box;
 }
-.email-section2,
+.email-section3,
 .pass-head {
   height: 71px;
 }
@@ -578,7 +578,7 @@
   font-family: var(--font-k2d);
 }
 @media screen and (max-width: 1200px) {
-  .header9 {
+  .header12 {
     align-self: stretch;
     width: auto;
   }
@@ -596,7 +596,7 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .header9 {
+  .header12 {
     width: 960px;
     padding-left: var(--padding-11xl);
     padding-right: var(--padding-11xl);
@@ -611,53 +611,52 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon12 {
+  .logo-icon15 {
     width: 20px;
     height: 20px;
   }
-  .logo-name12 {
+  .logo-name15 {
     font-size: var(--font-size-mini);
   }
-  .logo11 {
+  .logo14 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about9,
-  .home9,
-  .profile9 {
+  .about12,
+  .home12,
+  .profile12 {
     font-size: var(--font-size-xs);
   }
-  .links9,
-  .nav9 {
-    padding-left: 0;
-    box-sizing: border-box;
-  }
-  .links9 {
+  .links12 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
     align-items: center;
     justify-content: center;
+    padding-left: 0;
     padding-right: var(--padding-6xl);
   }
-  .nav9 {
+  .header12,
+  .links12,
+  .nav12 {
+    box-sizing: border-box;
+  }
+  .nav12 {
+    padding-left: 0;
     padding-right: 0;
   }
-  .header9,
-  .login1 {
+  .header12 {
     align-self: stretch;
-  }
-  .header9 {
     width: auto;
     height: auto;
     gap: var(--gap-859xl);
     align-items: center;
     justify-content: center;
     padding: 0 0 0 var(--padding-3xs);
-    box-sizing: border-box;
   }
   .login1 {
     flex: unset;
+    align-self: stretch;
   }
   .login-button {
     flex-direction: column;

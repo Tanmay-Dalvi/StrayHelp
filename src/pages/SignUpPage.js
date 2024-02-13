@@ -40,20 +40,20 @@ const SignUpPage = () => {
   return (
     <>
       <div className="sign-up-page">
-        <nav className="header8">
-          <div className="nav8">
-            <div className="logo10">
-              <img className="logo-icon11" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name11">StrayHelp</p>
+        <nav className="header11">
+          <div className="nav11">
+            <div className="logo13">
+              <img className="logo-icon14" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name14">StrayHelp</p>
             </div>
-            <div className="links8">
-              <button className="home8" onClick={onHomeClick}>
+            <div className="links11">
+              <button className="home11" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about8" onClick={onAboutClick}>
+              <button className="about11" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile8" onClick={openProfile1}>
+              <button className="profile11" onClick={openProfile1}>
                 Profile
               </button>
             </div>

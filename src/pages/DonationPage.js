@@ -27,20 +27,20 @@ const DonationPage = () => {
   return (
     <>
       <div className="donation-page">
-        <nav className="header2">
-          <div className="nav2">
-            <div className="logo2">
-              <img className="logo-icon3" alt="" src="/logo-icon2@2x.png" />
-              <p className="logo-name3">StrayHelp</p>
+        <nav className="header3">
+          <div className="nav3">
+            <div className="logo3">
+              <img className="logo-icon4" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name4">StrayHelp</p>
             </div>
-            <div className="links2">
-              <button className="home2" onClick={onHomeClick}>
+            <div className="links3">
+              <button className="home3" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about2" onClick={onAboutClick}>
+              <button className="about3" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile2" onClick={openProfile1}>
+              <button className="profile3" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -51,7 +51,7 @@ const DonationPage = () => {
             <img className="hero-child" alt="" src="/rectangle-38@2x.png" />
           </div>
           <div className="donation-para">
-            <div className="question">
+            <div className="help-features">
               <p className="why-to-donate">Why to Donate?</p>
             </div>
             <div className="donation-message">
@@ -64,7 +64,7 @@ const DonationPage = () => {
             </div>
           </div>
           <div className="features">
-            <div className="question">
+            <div className="help-features">
               <p className="feature-text">
                 Your Donations Helps For Animal’s -
               </p>

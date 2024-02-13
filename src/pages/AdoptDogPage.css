@@ -1,4 +1,4 @@
-.logo-icon13 {
+.logo-icon6 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name13 {
+.logo-name6 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo12 {
+.logo5 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home10 {
+.home5 {
   width: 40px;
 }
-.about10:hover,
-.home10:hover,
-.profile10:hover {
+.about5:hover,
+.home5:hover,
+.profile5:hover {
   color: var(--color-deepskyblue-200);
 }
-.about10,
-.home10,
-.profile10 {
+.about5,
+.home5,
+.profile5 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,33 +48,33 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about10 {
+.about5 {
   width: 44px;
   height: 21px;
 }
-.profile10 {
+.profile5 {
   width: 48px;
 }
-.links10 {
+.links5 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.header10,
-.links10,
-.nav10 {
+.header5,
+.links5,
+.nav5 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.nav10 {
+.nav5 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header10 {
+.header5 {
   margin: 0;
   align-self: stretch;
   height: 155px;
@@ -89,14 +89,14 @@
   color: var(--color-gray-100);
   font-family: var(--font-k2d);
 }
-.adoption-heading {
+.adoption-heading1 {
   margin: 0;
   position: relative;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
 }
-.adoption-text {
+.adoption-text1 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -107,7 +107,7 @@
   height: 80px;
   flex-shrink: 0;
 }
-.adoption-head {
+.adoption-head1 {
   width: 685px;
   height: 183px;
   overflow: hidden;
@@ -121,7 +121,7 @@
   font-size: var(--font-size-45xl);
   color: var(--color-deepskyblue-100);
 }
-.dogs {
+.dogs1 {
   margin: 0;
   position: relative;
   font-size: var(--font-size-mini);
@@ -130,49 +130,49 @@
   color: var(--color-black);
   text-align: center;
 }
-.dog-button {
+.dog-button1 {
   cursor: pointer;
   border: 0.5px solid var(--color-black);
   padding: var(--padding-11xs) var(--padding-lg);
   background-color: var(--color-paleturquoise);
   border-radius: var(--br-8xs);
 }
-.cat-button:active,
-.cat-button:hover,
-.dog-button:active,
-.dog-button:hover {
+.cat-button1:active,
+.cat-button1:hover,
+.dog-button1:active,
+.dog-button1:hover {
   background-color: var(--color-lightblue-200);
 }
-.buttons2,
-.cat-button,
-.dog-button {
+.buttons1,
+.cat-button1,
+.dog-button1 {
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.cat-button {
+.cat-button1 {
   cursor: pointer;
   border: 0.5px solid var(--color-black);
   padding: var(--padding-11xs) var(--padding-lgi);
   background-color: var(--color-paleturquoise);
   border-radius: var(--br-8xs);
 }
-.buttons2 {
+.buttons1 {
   width: 685px;
   height: 50px;
   flex-shrink: 0;
   gap: var(--gap-sm);
 }
-.pet-img-icon {
+.pet-img-icon16 {
   width: 150px;
   position: relative;
   border-radius: var(--br-8xs);
   height: 120px;
   object-fit: cover;
 }
-.pet-image {
+.pet-image16 {
   align-self: stretch;
   height: 118px;
   flex-direction: column;
@@ -180,8 +180,8 @@
   box-sizing: border-box;
 }
 .max,
-.pet-image,
-.pet-name {
+.pet-image16,
+.pet-name16 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -193,15 +193,15 @@
   height: 16px;
   flex-shrink: 0;
 }
-.pet-name {
+.pet-name16 {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
   flex-direction: column;
   padding: var(--padding-3xs);
 }
-.gender,
-.male {
+.gender16,
+.male8 {
   margin: 0;
   width: 38px;
   position: relative;
@@ -210,11 +210,11 @@
   height: 13px;
   flex-shrink: 0;
 }
-.male {
+.male8 {
   width: 22px;
   font-weight: 300;
 }
-.pet-gender {
+.pet-gender16 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -223,10 +223,10 @@
   justify-content: flex-start;
   gap: var(--gap-12xs);
 }
-.age,
+.age16,
 .bangkok-thailand,
-.location,
-.months {
+.location16,
+.months16 {
   margin: 0;
   width: 23px;
   position: relative;
@@ -236,13 +236,13 @@
   flex-shrink: 0;
 }
 .bangkok-thailand,
-.location,
-.months {
+.location16,
+.months16 {
   width: 45px;
   font-weight: 300;
 }
 .bangkok-thailand,
-.location {
+.location16 {
   width: 43px;
   font-weight: 500;
 }
@@ -250,7 +250,7 @@
   width: 82px;
   font-weight: 300;
 }
-.pet-details {
+.pet-details16 {
   width: 128px;
   height: 49px;
   overflow: hidden;
@@ -261,19 +261,19 @@
   text-align: left;
   font-size: var(--font-size-3xs);
 }
-.owner1,
-.pet-details,
-.pet-info-sec {
+.owner33,
+.pet-details16,
+.pet-info-sec16 {
   display: flex;
   align-items: center;
 }
-.pet-info-sec {
+.pet-info-sec16 {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
 }
-.owner1 {
+.owner33 {
   margin: 0;
   width: 150px;
   position: relative;
@@ -281,7 +281,7 @@
   height: 16px;
   flex-shrink: 0;
 }
-.prof-pic-icon {
+.prof-pic-icon16 {
   width: 15px;
   position: relative;
   border-radius: 50%;
@@ -289,17 +289,12 @@
   object-fit: cover;
   opacity: 0.5;
 }
-.owner-name {
-  margin: 0;
-  position: relative;
-  font-weight: 300;
-}
-.contact-now,
-.owner-details {
+.contact-now16,
+.owner-details16 {
   font-size: var(--font-size-3xs);
   flex-shrink: 0;
 }
-.owner-details {
+.owner-details16 {
   width: 150px;
   height: 16px;
   overflow: hidden;
@@ -311,7 +306,7 @@
   box-sizing: border-box;
   gap: var(--gap-7xs);
 }
-.contact-now {
+.contact-now16 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -325,50 +320,49 @@
   display: inline-block;
   height: 13px;
 }
-.contact-button,
-.owner {
+.contact-button16 {
   align-self: stretch;
   flex: 1;
-}
-.contact-button {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--padding-3xs);
 }
-.owner {
+.owner32 {
+  align-self: stretch;
+  flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-2xs);
   font-size: var(--font-size-2xs);
 }
-.details,
-.owner,
-.pet,
-.pet-data {
+.details16,
+.owner32,
+.pet-data16,
+.pet16 {
   display: flex;
   align-items: center;
 }
-.details {
+.details16 {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-smi);
 }
-.pet,
-.pet-data {
+.pet-data16,
+.pet16 {
   overflow: hidden;
   justify-content: center;
 }
-.pet {
+.pet16 {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   gap: var(--gap-5xs);
 }
-.pet-data {
+.pet-data16 {
   width: 250px;
   border-radius: var(--br-8xs);
   background-color: var(--color-gainsboro-100);
@@ -378,10 +372,10 @@
   padding: var(--padding-10xs) var(--padding-31xl);
   box-sizing: border-box;
 }
-.female,
-.months1,
+.female8,
+.months17,
 .new-york-usa,
-.owner-name1 {
+.owner-name17 {
   margin: 0;
   width: 31px;
   position: relative;
@@ -390,47 +384,50 @@
   height: 13px;
   flex-shrink: 0;
 }
-.months1,
+.months17,
 .new-york-usa,
-.owner-name1 {
+.owner-name17 {
   width: 40px;
 }
 .new-york-usa,
-.owner-name1 {
+.owner-name17 {
   width: 67px;
 }
-.owner-name1 {
+.owner-name17 {
   width: 54px;
 }
-.pet-set {
+.pet-set8 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: var(--gap-21xl);
 }
-.months3 {
+.london-uk,
+.months19 {
   margin: 0;
-  width: 42px;
   position: relative;
   font-weight: 300;
+}
+.months19 {
+  width: 42px;
   display: inline-block;
   height: 13px;
   flex-shrink: 0;
 }
-.pet-group,
-.pet-set1 {
+.pet-group4,
+.pet-set9 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: var(--gap-21xl);
 }
-.pet-group {
+.pet-group4 {
   flex-direction: column;
 }
-.location6,
-.months7 {
+.location22,
+.months23 {
   margin: 0;
   width: 43px;
   position: relative;
@@ -438,49 +435,49 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.months7 {
+.months23 {
   width: 48px;
   font-weight: 300;
   height: 13px;
 }
-.pet-group1,
-.pet-list {
+.pet-group5,
+.pet-list2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.pet-group1 {
+.pet-group5 {
   display: flex;
   gap: var(--gap-21xl);
 }
-.pet-list {
+.pet-list2 {
   align-self: stretch;
   flex: 1;
 }
-.pet-list,
-.pet-set4 {
+.pet-list2,
+.pet-set12 {
   display: flex;
   gap: var(--gap-21xl);
 }
 .adopt-dog-page,
-.adoption-page,
-.pet-list1,
-.pet-set4 {
+.adoption-page1,
+.pet-list3,
+.pet-set12 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.pet-list1 {
+.pet-list3 {
   width: 268px;
   height: 2680px;
   display: none;
   gap: var(--gap-21xl);
 }
 .adopt-dog-page,
-.adoption-page {
+.adoption-page1 {
   display: flex;
 }
-.adoption-page {
+.adoption-page1 {
   align-self: stretch;
   background-color: var(--color-white);
   height: 1656px;
@@ -499,15 +496,15 @@
   font-family: var(--font-k2d);
 }
 @media screen and (max-width: 1200px) {
-  .buttons2 {
+  .buttons1 {
     height: 50px;
   }
-  .adoption-page {
+  .adoption-page1 {
     height: 1700px;
   }
 }
 @media screen and (max-width: 960px) {
-  .header10 {
+  .header5 {
     width: 960px;
     height: 60px;
     align-items: center;
@@ -517,10 +514,10 @@
     padding-right: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .adoption-heading {
+  .adoption-heading1 {
     font-size: var(--font-size-31xl);
   }
-  .buttons2 {
+  .buttons1 {
     width: 685px;
     height: 60px;
   }
@@ -530,23 +527,23 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon13 {
+  .logo-icon6 {
     width: 20px;
     height: 20px;
   }
-  .logo-name13 {
+  .logo-name6 {
     font-size: var(--font-size-mini);
   }
-  .logo12 {
+  .logo5 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about10,
-  .home10,
-  .profile10 {
+  .about5,
+  .home5,
+  .profile5 {
     font-size: var(--font-size-xs);
   }
-  .links10 {
+  .links5 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
@@ -554,78 +551,78 @@
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
-  .header10,
-  .links10,
-  .nav10 {
+  .header5,
+  .links5,
+  .nav5 {
     align-items: center;
     justify-content: center;
   }
-  .nav10 {
+  .nav5 {
     flex-direction: row;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .header10 {
+  .header5 {
     align-self: stretch;
     width: auto;
   }
-  .adoption-heading {
+  .adoption-heading1 {
     font-size: var(--font-size-16xl);
     text-align: center;
     width: 420px;
   }
-  .adoption-text {
+  .adoption-text1 {
     font-size: var(--font-size-3xs);
     width: 380px;
     align-self: center;
   }
-  .adoption-head {
+  .adoption-head1 {
     width: 420px;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
     align-self: center;
   }
-  .dog-button:active {
+  .dog-button1:active {
     background-color: var(--color-lightblue-200);
   }
-  .buttons2 {
+  .buttons1 {
     width: 460px;
     height: 60px;
     align-items: flex-start;
     justify-content: center;
   }
-  .pet-set {
+  .pet-set8 {
     width: 420px;
     gap: var(--gap-21xl);
     column-gap: 20;
   }
-  .pet-group,
-  .pet-set,
-  .pet-set1 {
+  .pet-group4,
+  .pet-set8,
+  .pet-set9 {
     flex-direction: column;
   }
-  .pet-list {
+  .pet-list2 {
     display: none;
     align-self: center;
   }
-  .pet-list,
-  .pet-list1,
-  .pet-set4 {
+  .pet-list2,
+  .pet-list3,
+  .pet-set12 {
     width: 420px;
     flex-direction: column;
     gap: var(--gap-21xl);
   }
-  .pet-set4 {
+  .pet-set12 {
     column-gap: 20;
   }
-  .pet-list1 {
+  .pet-list3 {
     display: flex;
     flex: 1;
     align-self: center;
   }
-  .adoption-page {
+  .adoption-page1 {
     width: 420px;
     height: auto;
     align-items: center;

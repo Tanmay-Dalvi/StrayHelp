@@ -46,24 +46,24 @@ const AboutUsPage = () => {
   return (
     <>
       <div className="about-us-page">
-        <nav className="header12">
-          <div className="nav12">
-            <div className="logo14">
-              <img className="logo-icon15" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name15">StrayHelp</p>
+        <nav className="header10">
+          <div className="nav10">
+            <div className="logo12">
+              <img className="logo-icon13" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name13">StrayHelp</p>
             </div>
-            <div className="links12">
-              <button className="home12" onClick={onHomeClick}>
+            <div className="links10">
+              <button className="home10" onClick={onHomeClick}>
                 Home
               </button>
               <button
-                className="about12"
+                className="about10"
                 data-scroll-to="about"
                 onClick={onAboutClick}
               >
                 About
               </button>
-              <button className="profile12" onClick={openProfile1}>
+              <button className="profile10" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -135,22 +135,22 @@ const AboutUsPage = () => {
               <button className="rescue-button" onClick={onRescueButtonClick}>
                 <p className="rescue5">Rescue</p>
                 <div className="arrow-right">
-                  <img className="vector-icon38" alt="" src="/vector7.svg" />
-                  <img className="vector-icon39" alt="" src="/vector8.svg" />
+                  <img className="vector-icon38" alt="" src="/vector.svg" />
+                  <img className="vector-icon39" alt="" src="/vector.svg" />
                 </div>
               </button>
               <button className="adopt-button" onClick={onAdoptButtonClick}>
                 <p className="rescue5">Adopt</p>
                 <div className="arrow-right">
-                  <img className="vector-icon38" alt="" src="/vector7.svg" />
-                  <img className="vector-icon39" alt="" src="/vector8.svg" />
+                  <img className="vector-icon38" alt="" src="/vector.svg" />
+                  <img className="vector-icon39" alt="" src="/vector.svg" />
                 </div>
               </button>
               <button className="donate-button1" onClick={onDonateButtonClick}>
                 <p className="rescue5">Donate</p>
                 <div className="arrow-right">
-                  <img className="vector-icon38" alt="" src="/vector7.svg" />
-                  <img className="vector-icon39" alt="" src="/vector8.svg" />
+                  <img className="vector-icon38" alt="" src="/vector.svg" />
+                  <img className="vector-icon39" alt="" src="/vector.svg" />
                 </div>
               </button>
               <button
@@ -159,8 +159,8 @@ const AboutUsPage = () => {
               >
                 <p className="rescue5">Volunteer</p>
                 <div className="arrow-right">
-                  <img className="vector-icon38" alt="" src="/vector7.svg" />
-                  <img className="vector-icon39" alt="" src="/vector8.svg" />
+                  <img className="vector-icon38" alt="" src="/vector.svg" />
+                  <img className="vector-icon39" alt="" src="/vector.svg" />
                 </div>
               </button>
             </div>

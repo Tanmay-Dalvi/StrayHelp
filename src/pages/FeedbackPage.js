@@ -50,7 +50,7 @@ const FeedbackPage = () => {
           <div className="feedback-wrapper">
             <h1 className="feedback">Feedback</h1>
           </div>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCbXBMK3-gEVwOHGHpznd6_-F3s3AxWc7cTL2M2P3y7YPx8A/viewform?embedded=true" width="640" height="1099" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCbXBMK3-gEVwOHGHpznd6_-F3s3AxWc7cTL2M2P3y7YPx8A/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
         </div>
       </div>
       {isProfile1Open && (

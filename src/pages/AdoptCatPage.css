@@ -1,4 +1,4 @@
-.logo-icon14 {
+.logo-icon5 {
   width: 36.6px;
   position: relative;
   border-radius: 50%;
@@ -6,7 +6,7 @@
   object-fit: cover;
   mix-blend-mode: normal;
 }
-.logo-name14 {
+.logo-name5 {
   margin: 0;
   width: 148.3px;
   position: relative;
@@ -14,7 +14,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.logo13 {
+.logo4 {
   width: 185px;
   overflow: hidden;
   flex-shrink: 0;
@@ -24,17 +24,17 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.home11 {
+.home4 {
   width: 40px;
 }
-.about11:hover,
-.home11:hover,
-.profile11:hover {
+.about4:hover,
+.home4:hover,
+.profile4:hover {
   color: var(--color-deepskyblue-200);
 }
-.about11,
-.home11,
-.profile11 {
+.about4,
+.home4,
+.profile4 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -48,33 +48,33 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.about11 {
+.about4 {
   width: 44px;
   height: 21px;
 }
-.profile11 {
+.profile4 {
   width: 48px;
 }
-.links11 {
+.links4 {
   width: 177px;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
   gap: var(--gap-3xl-5);
 }
-.header11,
-.links11,
-.nav11 {
+.header4,
+.links4,
+.nav4 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.nav11 {
+.nav4 {
   flex: 1;
   height: 42px;
   justify-content: space-between;
 }
-.header11 {
+.header4 {
   margin: 0;
   align-self: stretch;
   height: 155px;
@@ -89,14 +89,14 @@
   color: var(--color-gray-100);
   font-family: var(--font-k2d);
 }
-.adoption-heading1 {
+.adoption-heading {
   margin: 0;
   position: relative;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
 }
-.adoption-text1 {
+.adoption-text {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -107,7 +107,7 @@
   height: 80px;
   flex-shrink: 0;
 }
-.adoption-head1 {
+.adoption-head {
   width: 685px;
   height: 183px;
   overflow: hidden;
@@ -121,7 +121,7 @@
   font-size: var(--font-size-45xl);
   color: var(--color-deepskyblue-100);
 }
-.dogs1 {
+.dogs {
   margin: 0;
   position: relative;
   font-size: var(--font-size-mini);
@@ -130,49 +130,49 @@
   color: var(--color-black);
   text-align: center;
 }
-.dog-button1 {
+.dog-button {
   cursor: pointer;
   border: 0.5px solid var(--color-black);
   padding: var(--padding-11xs) var(--padding-lg);
   background-color: var(--color-paleturquoise);
   border-radius: var(--br-8xs);
 }
-.cat-button1:active,
-.cat-button1:hover,
-.dog-button1:active,
-.dog-button1:hover {
+.cat-button:active,
+.cat-button:hover,
+.dog-button:active,
+.dog-button:hover {
   background-color: var(--color-lightblue-200);
 }
-.buttons3,
-.cat-button1,
-.dog-button1 {
+.buttons,
+.cat-button,
+.dog-button {
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.cat-button1 {
+.cat-button {
   cursor: pointer;
   border: 0.5px solid var(--color-black);
   padding: var(--padding-11xs) var(--padding-lgi);
   background-color: var(--color-paleturquoise);
   border-radius: var(--br-8xs);
 }
-.buttons3 {
+.buttons {
   width: 685px;
   height: 50px;
   flex-shrink: 0;
   gap: var(--gap-sm);
 }
-.pet-img-icon16 {
+.pet-img-icon {
   width: 150px;
   position: relative;
   border-radius: var(--br-8xs);
   height: 120px;
   object-fit: cover;
 }
-.pet-image16 {
+.pet-image {
   align-self: stretch;
   height: 118px;
   flex-direction: column;
@@ -180,8 +180,8 @@
   box-sizing: border-box;
 }
 .oliver,
-.pet-image16,
-.pet-name16 {
+.pet-image,
+.pet-name {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -193,15 +193,15 @@
   height: 16px;
   flex-shrink: 0;
 }
-.pet-name16 {
+.pet-name {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
   flex-direction: column;
   padding: var(--padding-3xs);
 }
-.gender16,
-.male8 {
+.gender,
+.male {
   margin: 0;
   width: 38px;
   position: relative;
@@ -210,11 +210,11 @@
   height: 13px;
   flex-shrink: 0;
 }
-.male8 {
+.male {
   width: 22px;
   font-weight: 300;
 }
-.pet-gender16 {
+.pet-gender {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -223,10 +223,10 @@
   justify-content: flex-start;
   gap: var(--gap-12xs);
 }
-.age16,
-.location16,
+.age,
+.location,
 .los-angelas-usa,
-.months16 {
+.months {
   margin: 0;
   width: 23px;
   position: relative;
@@ -235,13 +235,13 @@
   height: 13px;
   flex-shrink: 0;
 }
-.location16,
+.location,
 .los-angelas-usa,
-.months16 {
+.months {
   width: 45px;
   font-weight: 300;
 }
-.location16,
+.location,
 .los-angelas-usa {
   width: 43px;
   font-weight: 500;
@@ -250,7 +250,7 @@
   width: 79px;
   font-weight: 300;
 }
-.pet-details16 {
+.pet-details {
   width: 128px;
   height: 49px;
   overflow: hidden;
@@ -261,19 +261,19 @@
   text-align: left;
   font-size: var(--font-size-3xs);
 }
-.owner33,
-.pet-details16,
-.pet-info-sec16 {
+.owner1,
+.pet-details,
+.pet-info-sec {
   display: flex;
   align-items: center;
 }
-.pet-info-sec16 {
+.pet-info-sec {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
 }
-.owner33 {
+.owner1 {
   margin: 0;
   width: 150px;
   position: relative;
@@ -281,7 +281,7 @@
   height: 16px;
   flex-shrink: 0;
 }
-.prof-pic-icon16 {
+.prof-pic-icon {
   width: 15px;
   position: relative;
   border-radius: 50%;
@@ -289,7 +289,7 @@
   object-fit: cover;
   opacity: 0.5;
 }
-.owner-name16 {
+.owner-name {
   margin: 0;
   width: 56px;
   position: relative;
@@ -298,12 +298,12 @@
   height: 13px;
   flex-shrink: 0;
 }
-.contact-now16,
-.owner-details16 {
+.contact-now,
+.owner-details {
   font-size: var(--font-size-3xs);
   flex-shrink: 0;
 }
-.owner-details16 {
+.owner-details {
   width: 150px;
   height: 16px;
   overflow: hidden;
@@ -315,7 +315,7 @@
   box-sizing: border-box;
   gap: var(--gap-7xs);
 }
-.contact-now16 {
+.contact-now {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -329,49 +329,50 @@
   display: inline-block;
   height: 13px;
 }
-.contact-button16 {
+.contact-button,
+.owner {
   align-self: stretch;
   flex: 1;
+}
+.contact-button {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--padding-3xs);
 }
-.owner32 {
-  align-self: stretch;
-  flex: 1;
+.owner {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-2xs);
   font-size: var(--font-size-2xs);
 }
-.details16,
-.owner32,
-.pet-data16,
-.pet16 {
+.details,
+.owner,
+.pet,
+.pet-data {
   display: flex;
   align-items: center;
 }
-.details16 {
+.details {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-smi);
 }
-.pet-data16,
-.pet16 {
+.pet,
+.pet-data {
   overflow: hidden;
   justify-content: center;
 }
-.pet16 {
+.pet {
   align-self: stretch;
   flex: 1;
   flex-direction: column;
   gap: var(--gap-5xs);
 }
-.pet-data16 {
+.pet-data {
   width: 250px;
   border-radius: var(--br-8xs);
   background-color: var(--color-gainsboro-100);
@@ -381,7 +382,7 @@
   padding: var(--padding-10xs) var(--padding-31xl);
   box-sizing: border-box;
 }
-.female8,
+.female,
 .vancouver-canada {
   margin: 0;
   width: 31px;
@@ -394,21 +395,21 @@
 .vancouver-canada {
   width: 84px;
 }
-.pet-set8 {
+.pet-set {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: var(--gap-21xl);
 }
-.months18 {
+.months2 {
   margin: 0;
   width: 42px;
   position: relative;
   font-weight: 300;
 }
-.months18,
-.owner-name18,
+.months2,
+.owner-name2,
 .rome-italy {
   display: inline-block;
   height: 13px;
@@ -420,29 +421,29 @@
   position: relative;
   font-weight: 300;
 }
-.owner-name18 {
+.owner-name2 {
   width: 59px;
 }
-.owner-name18,
-.paris-france2 {
+.owner-name2,
+.paris-france {
   margin: 0;
   position: relative;
   font-weight: 300;
 }
-.pet-group4,
-.pet-set9 {
+.pet-group,
+.pet-set1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: var(--gap-21xl);
 }
-.pet-group4 {
+.pet-group {
   flex-direction: column;
 }
 .mumbai-india,
-.owner-name20,
-.owner-name21 {
+.owner-name4,
+.owner-name5 {
   margin: 0;
   width: 62px;
   position: relative;
@@ -451,17 +452,17 @@
   height: 13px;
   flex-shrink: 0;
 }
-.owner-name20,
-.owner-name21 {
+.owner-name4,
+.owner-name5 {
   width: 61px;
 }
-.owner-name21 {
+.owner-name5 {
   width: 52px;
 }
-.location22,
+.location6,
 .moscow-russia,
-.owner-name22,
-.owner-name23 {
+.owner-name6,
+.owner-name7 {
   margin: 0;
   width: 43px;
   position: relative;
@@ -470,57 +471,57 @@
   flex-shrink: 0;
 }
 .moscow-russia,
-.owner-name22,
-.owner-name23 {
+.owner-name6,
+.owner-name7 {
   width: 70px;
   font-weight: 300;
   height: 13px;
 }
-.owner-name22,
-.owner-name23 {
+.owner-name6,
+.owner-name7 {
   width: 67px;
 }
-.owner-name23 {
+.owner-name7 {
   width: 54px;
 }
-.pet-group5,
-.pet-list2 {
+.pet-group1,
+.pet-list {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.pet-group5 {
+.pet-group1 {
   display: flex;
   gap: var(--gap-21xl);
 }
-.pet-list2 {
+.pet-list {
   align-self: stretch;
   flex: 1;
 }
-.pet-list2,
-.pet-set12 {
+.pet-list,
+.pet-set4 {
   display: flex;
   gap: var(--gap-21xl);
 }
 .adopt-cat-page,
-.adoption-page1,
-.pet-list3,
-.pet-set12 {
+.adoption-page,
+.pet-list1,
+.pet-set4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.pet-list3 {
+.pet-list1 {
   width: 268px;
   height: 2680px;
   display: none;
   gap: var(--gap-21xl);
 }
 .adopt-cat-page,
-.adoption-page1 {
+.adoption-page {
   display: flex;
 }
-.adoption-page1 {
+.adoption-page {
   align-self: stretch;
   background-color: var(--color-white);
   height: 1656px;
@@ -539,15 +540,15 @@
   font-family: var(--font-k2d);
 }
 @media screen and (max-width: 1200px) {
-  .buttons3 {
+  .buttons {
     height: 50px;
   }
-  .adoption-page1 {
+  .adoption-page {
     height: 1700px;
   }
 }
 @media screen and (max-width: 960px) {
-  .header11 {
+  .header4 {
     width: 960px;
     height: 60px;
     align-items: center;
@@ -557,10 +558,10 @@
     padding-right: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .adoption-heading1 {
+  .adoption-heading {
     font-size: var(--font-size-31xl);
   }
-  .buttons3 {
+  .buttons {
     width: 685px;
     height: 60px;
   }
@@ -570,23 +571,23 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .logo-icon14 {
+  .logo-icon5 {
     width: 20px;
     height: 20px;
   }
-  .logo-name14 {
+  .logo-name5 {
     font-size: var(--font-size-mini);
   }
-  .logo13 {
+  .logo4 {
     padding-bottom: 0;
     box-sizing: border-box;
   }
-  .about11,
-  .home11,
-  .profile11 {
+  .about4,
+  .home4,
+  .profile4 {
     font-size: var(--font-size-xs);
   }
-  .links11 {
+  .links4 {
     width: 190px;
     flex-direction: row;
     gap: var(--gap-3xl-5);
@@ -594,74 +595,74 @@
     padding-right: var(--padding-6xl);
     box-sizing: border-box;
   }
-  .header11,
-  .links11,
-  .nav11 {
+  .header4,
+  .links4,
+  .nav4 {
     align-items: center;
     justify-content: center;
   }
-  .nav11 {
+  .nav4 {
     flex-direction: row;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .header11 {
+  .header4 {
     align-self: stretch;
     width: auto;
   }
-  .adoption-heading1 {
+  .adoption-heading {
     font-size: var(--font-size-16xl);
     text-align: center;
     width: 420px;
   }
-  .adoption-text1 {
+  .adoption-text {
     font-size: var(--font-size-3xs);
     width: 380px;
     align-self: center;
   }
-  .adoption-head1 {
+  .adoption-head {
     width: 420px;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
     align-self: center;
   }
-  .buttons3 {
+  .buttons {
     width: 460px;
     height: 60px;
     align-items: flex-start;
     justify-content: center;
   }
-  .pet-set8 {
+  .pet-set {
     width: 420px;
     gap: var(--gap-21xl);
     column-gap: 20;
   }
-  .pet-group4,
-  .pet-set8,
-  .pet-set9 {
+  .pet-group,
+  .pet-set,
+  .pet-set1 {
     flex-direction: column;
   }
-  .pet-list2 {
+  .pet-list {
     display: none;
     align-self: center;
   }
-  .pet-list2,
-  .pet-list3,
-  .pet-set12 {
+  .pet-list,
+  .pet-list1,
+  .pet-set4 {
     width: 420px;
     flex-direction: column;
     gap: var(--gap-21xl);
   }
-  .pet-set12 {
+  .pet-set4 {
     column-gap: 20;
   }
-  .pet-list3 {
+  .pet-list1 {
     display: flex;
     align-self: center;
   }
-  .adoption-page1 {
+  .adoption-page {
     width: 420px;
     height: auto;
     align-items: center;

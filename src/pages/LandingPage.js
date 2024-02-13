@@ -39,10 +39,6 @@ const LandingPage = () => {
     navigate("/adopt-dog-page");
   }, [navigate]);
 
-  const onDonateBtnClick = useCallback(() => {
-    navigate("/donation-page");
-  }, [navigate]);
-
   const onVolunteerBtnClick = useCallback(() => {
     navigate("/volunteer-page");
   }, [navigate]);
@@ -113,19 +109,19 @@ const LandingPage = () => {
           </div>
           <div className="motive-images">
             <img
-              className="motive-img1-icon"
+              className="motive1_img-icon"
               alt=""
-              src="/motive-img1@2x.png"
+              src="/motive1_img@2x.png"
             />
             <img
-              className="motive-img1-icon"
+              className="motive2_img-icon"
               alt=""
-              src="/motive-img2@2x.png"
+              src="/motive2_img@2x.png"
             />
             <img
-              className="motive-img1-icon"
+              className="motive3_img-icon"
               alt=""
-              src="/motive-img3@2x.png"
+              src="/motive3_img@2x.png"
             />
           </div>
         </div>
@@ -153,9 +149,9 @@ const LandingPage = () => {
             </p>
             <img className="adopt-img-icon" alt="" src="/adopt-img@2x.png" />
           </div>
-          <div className="donate" onClick={onDonateBtnClick}>
-            <button className="donate-btn">
-              <p className="donate1">Donate</p>
+          <div className="donate">
+            <button className="donate-btn" onClick={onDonateBtnClick}>
+              <p className="rescue1">Donate</p>
             </button>
             <p className="donate-txt">
               Find your perfect companion! Explore our adoption platform to
@@ -164,8 +160,8 @@ const LandingPage = () => {
             </p>
             <img className="adopt-img-icon" alt="" src="/donate-img@2x.png" />
           </div>
-          <div className="donate">
-            <button className="donate-btn" onClick={onVolunteerBtnClick}>
+          <div className="volunteer">
+            <button className="volunteer-btn" onClick={onVolunteerBtnClick}>
               <div className="rescue1">Volunteer</div>
             </button>
             <p className="donate-txt">

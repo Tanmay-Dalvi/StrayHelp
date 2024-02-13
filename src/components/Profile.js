@@ -68,8 +68,8 @@ const Profile = ({ onClose }) => {
       <button className="signout">
         <div className="sign-out">Sign Out</div>
         <div className="arrow-right4">
-          <img className="vector-icon46" alt="" src="/vector9.svg" />
-          <img className="vector-icon47" alt="" src="/vector10.svg" />
+          <img className="vector-icon46" alt="" src="/vector.svg" />
+          <img className="vector-icon47" alt="" src="/vector.svg" />
         </div>
       </button>
     </div>
