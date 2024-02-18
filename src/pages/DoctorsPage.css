@@ -1,0 +1,536 @@
+.logo-icon7 {
+  width: 36.6px;
+  position: relative;
+  border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.logo-name7 {
+  margin: 0;
+  width: 148.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo6 {
+  width: 185px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.home6 {
+  width: 40px;
+}
+.about6:hover,
+.home6:hover,
+.profile6:hover {
+  color: var(--color-deepskyblue-200);
+}
+.about6,
+.home6,
+.profile6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about6 {
+  width: 44px;
+  height: 21px;
+}
+.profile6 {
+  width: 48px;
+}
+.links6 {
+  width: 177px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: var(--gap-3xl-5);
+}
+.header6,
+.links6,
+.nav6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav6 {
+  flex: 1;
+  height: 42px;
+  justify-content: space-between;
+}
+.header6 {
+  margin: 0;
+  align-self: stretch;
+  height: 155px;
+  background-color: var(--color-paleturquoise);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-81xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-k2d);
+}
+.our-team-includes,
+.strayhelp-doctors {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.strayhelp-doctors {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.our-team-includes {
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+}
+.doctor-text {
+  align-self: stretch;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  text-align: left;
+  color: var(--color-deepskyblue-100);
+}
+.doctor-text,
+.nearby-doctors1,
+.search-loc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-loc {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-paleturquoise);
+  width: 400px;
+  border-radius: var(--br-3xs);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.nearby-doctors1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  height: 42px;
+}
+.nearby-doctors {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-13xl);
+}
+.doc-img-child {
+  width: 224px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  height: 280px;
+  object-fit: cover;
+}
+.doc-img {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.doc-name,
+.name2 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.name2 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  height: 31px;
+}
+.doc-name {
+  height: 37px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.vector-icon {
+  width: 10.5px;
+  position: relative;
+  height: 12.8px;
+  z-index: 0;
+}
+.vector-icon1 {
+  width: 24.83%;
+  position: absolute;
+  margin: 0 !important;
+  height: 22.02%;
+  top: 31.55%;
+  right: 37.93%;
+  bottom: 46.43%;
+  left: 37.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.map-pin {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.doctor-loc {
+  margin: 0;
+  position: relative;
+}
+.doc-loc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-smi);
+}
+.vector-icon2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.contact {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-k2d);
+  color: var(--color-white);
+  text-align: left;
+}
+.call-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xl);
+  background-color: var(--color-deepskyblue-100);
+  width: 130px;
+  border-radius: var(--br-3xs);
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.call-btn:hover,
+.mail-btn:hover {
+  background-color: var(--color-teal);
+}
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 66.43%;
+  width: 83.57%;
+  top: 16.43%;
+  right: 7.86%;
+  bottom: 17.14%;
+  left: 8.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon4 {
+  height: 29.29%;
+  top: 25%;
+  bottom: 45.71%;
+}
+.mail {
+  width: 14px;
+  position: relative;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mail-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-10xl);
+  background-color: var(--color-deepskyblue-100);
+  width: 130px;
+  border-radius: var(--br-3xs);
+  height: 30px;
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.doc-loc1,
+.doctor-1,
+.mail-btn {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doctor-1 {
+  width: 360px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-paleturquoise-200);
+  height: 482px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.doc-loc1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-smi);
+}
+.doc-a {
+  height: 482px;
+  flex-shrink: 0;
+  gap: var(--gap-31xl);
+}
+.doc-a,
+.doc-img2,
+.doc-loc2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.doc-img2 {
+  height: 300px;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.doc-loc2 {
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-smi);
+}
+.doctors1,
+.name6 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.name6 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  height: 36px;
+}
+.doctors1 {
+  height: 1546px;
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-5xl);
+}
+.doctors-page,
+.doctors-section,
+.doctors1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctors-section {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 2121px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 40px 70px;
+  box-sizing: border-box;
+  gap: var(--gap-56xl);
+}
+.doctors-page {
+  width: 100%;
+  position: relative;
+  height: 2276px;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: var(--color-black);
+  font-family: var(--font-k2d);
+}
+@media screen and (max-width: 960px) {
+  .header6 {
+    width: 960px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-11xl);
+    padding-top: var(--padding-13xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .strayhelp-doctors {
+    font-size: var(--font-size-31xl);
+  }
+  .our-team-includes {
+    font-size: var(--font-size-base);
+  }
+  .doctors-page {
+    height: 2240px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo-icon7 {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-name7 {
+    font-size: var(--font-size-mini);
+  }
+  .logo6 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .about6,
+  .home6,
+  .profile6 {
+    font-size: var(--font-size-xs);
+  }
+  .links6 {
+    width: 190px;
+    flex-direction: row;
+    gap: var(--gap-3xl-5);
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: var(--padding-6xl);
+  }
+  .header6,
+  .links6,
+  .nav6 {
+    box-sizing: border-box;
+  }
+  .nav6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header6 {
+    width: 420px;
+    height: 60px;
+    gap: var(--gap-859xl);
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-3xs);
+  }
+  .strayhelp-doctors {
+    font-size: var(--font-size-mini);
+    text-align: left;
+  }
+  .our-team-includes {
+    font-size: var(--font-size-5xs);
+  }
+  .doctor-text {
+    height: 100px;
+    gap: var(--gap-21xl);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .search-loc {
+    width: 150px;
+    height: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: var(--br-11xs);
+    padding-top: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .nearby-doctors1 {
+    font-size: var(--font-size-lg);
+  }
+  .nearby-doctors {
+    height: 10px;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .doc-a,
+  .doctor-1 {
+    align-self: stretch;
+  }
+  .doctor-1 {
+    width: auto;
+    flex: 1;
+  }
+  .doc-a {
+    height: auto;
+    flex-direction: column;
+  }
+  .doctors1 {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .doctors-section {
+    width: 405px;
+    height: 3700px;
+    gap: var(--gap-56xl);
+  }
+  .doctors-page {
+    width: 420px;
+    height: 3750px;
+  }
+}

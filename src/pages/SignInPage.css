@@ -1,0 +1,734 @@
+.logo-icon10 {
+  width: 36.6px;
+  position: relative;
+  border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.logo-name10,
+.logo9 {
+  height: 42px;
+  flex-shrink: 0;
+}
+.logo-name10 {
+  margin: 0;
+  width: 148.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.logo9 {
+  width: 185px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.home9 {
+  width: 40px;
+}
+.about9:hover,
+.home9:hover,
+.profile9:hover {
+  color: var(--color-deepskyblue-200);
+}
+.about9,
+.home9,
+.profile9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about9 {
+  width: 44px;
+  height: 21px;
+}
+.profile9 {
+  width: 48px;
+}
+.links9,
+.nav9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.links9 {
+  width: 177px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: var(--gap-3xl-5);
+}
+.nav9 {
+  flex: 1;
+  height: 42px;
+  justify-content: space-between;
+}
+.header9,
+.login,
+.login-text {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header9 {
+  margin: 0;
+  height: 155px;
+  background-color: var(--color-paleturquoise);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-13xl) var(--padding-81xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-k2d);
+}
+.login,
+.login-text {
+  flex: 1;
+}
+.login {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.login-text {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-13xl);
+}
+.email-input1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.email-section1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password {
+  margin: 0;
+  position: relative;
+}
+.password-head,
+.password-space {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.password-space {
+  flex-direction: column;
+  justify-content: center;
+}
+.email-pass-section1,
+.password-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.password-section {
+  flex: 1;
+  justify-content: center;
+}
+.email-pass-section1 {
+  height: 204px;
+  justify-content: flex-start;
+}
+.forget-password-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+}
+.forget-pass-btn {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+}
+.login-section {
+  align-self: stretch;
+  height: 242px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.login-button,
+.login1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-white);
+  text-align: center;
+}
+.login-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-135xl);
+  background-color: var(--color-deepskyblue-100);
+  border-radius: var(--br-6xs);
+  overflow: hidden;
+  flex-direction: row;
+}
+.login-button1:hover,
+.login-button:hover {
+  background-color: var(--color-steelblue-100);
+}
+.login-btn {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+}
+.login-btn,
+.or-login-with1,
+.or-text1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or-login-with1 {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+}
+.or-text1 {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.clip-path-group1 {
+  position: absolute;
+  height: 100%;
+  width: 99.2%;
+  top: 0;
+  right: 0.8%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.google-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 25px;
+  position: relative;
+  height: 25px;
+}
+.dont-have-an,
+.google1 {
+  align-self: stretch;
+  flex: 1;
+}
+.google1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.dont-have-an {
+  margin: 0;
+  position: relative;
+}
+.no-acc-txt1 {
+  width: 176px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.signup-here-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.signup-btn1 {
+  width: 104px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.login-box,
+.login-page,
+.no-acc-signup1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.no-acc-signup1 {
+  width: 240px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+}
+.login-box,
+.login-page {
+  align-self: stretch;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.login-box {
+  width: 400px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-paleturquoise);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 11px;
+  gap: var(--gap-12xs);
+}
+.login-page {
+  height: 755px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-98xl) var(--padding-501xl);
+}
+.login2 {
+  position: relative;
+}
+.login-heading {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.email8 {
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+}
+.email-head2 {
+  width: 240px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.input-box-child {
+  border: 0;
+  background-color: transparent;
+  width: 220px;
+  position: relative;
+}
+.email-section2,
+.input-box,
+.pass-head {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  height: 41px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.email-section2,
+.pass-head {
+  height: 71px;
+}
+.pass-head {
+  height: 22px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.email-pass-section2,
+.pass-section {
+  width: 240px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email-pass-section2 {
+  height: 134px;
+  font-size: var(--font-size-mini);
+}
+.forget-password {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+}
+.forget-pass-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  width: 240px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.login-button1,
+.login3,
+.or-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login3 {
+  margin: 0;
+  align-self: stretch;
+  width: 40px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-white);
+  text-align: center;
+  flex-shrink: 0;
+}
+.login-button1,
+.or-text2 {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.login-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-135xl);
+  background-color: var(--color-deepskyblue-100);
+  width: 200px;
+  border-radius: var(--br-6xs);
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.or-text2 {
+  width: 240px;
+  height: 23px;
+  padding: var(--padding-3xs);
+}
+.clip-path-group2 {
+  position: absolute;
+  height: 100%;
+  width: 99.5%;
+  top: 0;
+  right: 0.5%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.google-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.google-btn,
+.or-section {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google-btn {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.or-section {
+  height: 64px;
+  flex-direction: column;
+  font-size: var(--font-size-sm);
+}
+.signup-here {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.sign-up-section {
+  width: 240px;
+  background-color: var(--color-gray-100);
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in-page,
+.small-login-box {
+  flex-direction: column;
+  align-items: center;
+}
+.small-login-box {
+  width: 250px;
+  height: 348px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-paleturquoise);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xl);
+}
+.sign-in-page {
+  width: 100%;
+  position: relative;
+  height: 910px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-k2d);
+}
+@media screen and (max-width: 1200px) {
+  .header9 {
+    align-self: stretch;
+    width: auto;
+  }
+  .google1 {
+    width: 45px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .login-page {
+    align-self: stretch;
+    width: auto;
+    height: 755px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header9 {
+    width: 960px;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .login-page {
+    height: 750px;
+    padding-left: 0;
+    padding-top: var(--padding-98xl);
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo-icon10 {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-name10 {
+    font-size: var(--font-size-mini);
+  }
+  .logo9 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .about9,
+  .home9,
+  .profile9 {
+    font-size: var(--font-size-xs);
+  }
+  .links9,
+  .nav9 {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .links9 {
+    width: 190px;
+    flex-direction: row;
+    gap: var(--gap-3xl-5);
+    align-items: center;
+    justify-content: center;
+    padding-right: var(--padding-6xl);
+  }
+  .nav9 {
+    padding-right: 0;
+  }
+  .header9,
+  .login1 {
+    align-self: stretch;
+  }
+  .header9 {
+    width: auto;
+    height: auto;
+    gap: var(--gap-859xl);
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .login1 {
+    flex: unset;
+  }
+  .login-button {
+    flex-direction: column;
+    padding-left: var(--padding-135xl);
+    padding-right: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+  .google1 {
+    align-self: stretch;
+    width: auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .login-box,
+  .login-page {
+    display: none;
+  }
+  .login-page {
+    align-self: stretch;
+    width: auto;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-31xl) 0;
+    box-sizing: border-box;
+  }
+  .email-pass-section2,
+  .forget-pass-btn1,
+  .login-heading {
+    height: auto;
+  }
+  .login3 {
+    align-self: stretch;
+    width: auto;
+  }
+  .login-button1 {
+    width: 150px;
+    height: auto;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .or-section {
+    height: auto;
+  }
+  .sign-up-section {
+    background-color: transparent;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    gap: 10;
+  }
+  .small-login-box {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: var(--padding-11xs);
+    padding-bottom: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 0;
+  }
+  .sign-in-page {
+    display: flex;
+    width: 420px;
+    height: 500px;
+    gap: var(--gap-0);
+    row-gap: 0;
+  }
+}

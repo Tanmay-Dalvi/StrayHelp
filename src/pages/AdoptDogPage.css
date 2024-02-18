@@ -1,0 +1,641 @@
+.logo-icon4 {
+  width: 36.6px;
+  position: relative;
+  border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.logo-name4 {
+  margin: 0;
+  width: 148.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo3 {
+  width: 185px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.home3 {
+  width: 40px;
+}
+.about3:hover,
+.home3:hover,
+.profile3:hover {
+  color: var(--color-deepskyblue-200);
+}
+.about3,
+.home3,
+.profile3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about3 {
+  width: 44px;
+  height: 21px;
+}
+.profile3 {
+  width: 48px;
+}
+.links3 {
+  width: 177px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: var(--gap-3xl-5);
+}
+.header3,
+.links3,
+.nav3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav3 {
+  flex: 1;
+  height: 42px;
+  justify-content: space-between;
+}
+.header3 {
+  margin: 0;
+  align-self: stretch;
+  height: 155px;
+  background-color: var(--color-paleturquoise);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-81xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-k2d);
+}
+.adoption-heading {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.adoption-text {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 80px;
+  flex-shrink: 0;
+}
+.adoption-head {
+  width: 685px;
+  height: 183px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-deepskyblue-100);
+}
+.dogs {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+}
+.dog-button {
+  cursor: pointer;
+  border: 0.5px solid var(--color-black);
+  padding: var(--padding-11xs) var(--padding-lg);
+  background-color: var(--color-paleturquoise);
+  border-radius: var(--br-8xs);
+}
+.cat-button:active,
+.cat-button:hover,
+.dog-button:active,
+.dog-button:hover {
+  background-color: var(--color-lightblue-200);
+}
+.buttons,
+.cat-button,
+.dog-button {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cat-button {
+  cursor: pointer;
+  border: 0.5px solid var(--color-black);
+  padding: var(--padding-11xs) var(--padding-lgi);
+  background-color: var(--color-paleturquoise);
+  border-radius: var(--br-8xs);
+}
+.buttons {
+  width: 685px;
+  height: 50px;
+  flex-shrink: 0;
+  gap: var(--gap-sm);
+}
+.pet-img-icon {
+  width: 150px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  height: 120px;
+  object-fit: cover;
+}
+.pet-image {
+  align-self: stretch;
+  height: 118px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.max,
+.pet-image,
+.pet-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.max {
+  margin: 0;
+  width: 130px;
+  position: relative;
+  height: 16px;
+  flex-shrink: 0;
+}
+.pet-name {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+}
+.gender,
+.male {
+  margin: 0;
+  width: 38px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 13px;
+  flex-shrink: 0;
+}
+.male {
+  width: 22px;
+  font-weight: 300;
+}
+.pet-gender {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.age,
+.bangkok-thailand,
+.location,
+.months {
+  margin: 0;
+  width: 23px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 13px;
+  flex-shrink: 0;
+}
+.bangkok-thailand,
+.location,
+.months {
+  width: 45px;
+  font-weight: 300;
+}
+.bangkok-thailand,
+.location {
+  width: 43px;
+  font-weight: 500;
+}
+.bangkok-thailand {
+  width: 82px;
+  font-weight: 300;
+}
+.pet-details {
+  width: 128px;
+  height: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+}
+.owner1,
+.pet-details,
+.pet-info-sec {
+  display: flex;
+  align-items: center;
+}
+.pet-info-sec {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.owner1 {
+  margin: 0;
+  width: 150px;
+  position: relative;
+  justify-content: center;
+  height: 16px;
+  flex-shrink: 0;
+}
+.prof-pic-icon {
+  width: 15px;
+  position: relative;
+  border-radius: 50%;
+  height: 15px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.owner-name {
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+}
+.contact-now,
+.owner-details {
+  font-size: var(--font-size-3xs);
+  flex-shrink: 0;
+}
+.owner-details {
+  width: 150px;
+  height: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.contact-now {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 70px;
+  position: relative;
+  text-decoration: underline;
+  font-family: var(--font-k2d);
+  color: var(--color-royalblue);
+  text-align: center;
+  display: inline-block;
+  height: 13px;
+}
+.contact-button,
+.owner {
+  align-self: stretch;
+  flex: 1;
+}
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.owner {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-2xs);
+}
+.details,
+.owner,
+.pet,
+.pet-data {
+  display: flex;
+  align-items: center;
+}
+.details {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.pet,
+.pet-data {
+  overflow: hidden;
+  justify-content: center;
+}
+.pet {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.pet-data {
+  width: 250px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro-100);
+  height: 300px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-31xl);
+  box-sizing: border-box;
+}
+.female,
+.months1,
+.new-york-usa,
+.owner-name1 {
+  margin: 0;
+  width: 31px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  height: 13px;
+  flex-shrink: 0;
+}
+.months1,
+.new-york-usa,
+.owner-name1 {
+  width: 40px;
+}
+.new-york-usa,
+.owner-name1 {
+  width: 67px;
+}
+.owner-name1 {
+  width: 54px;
+}
+.pet-set {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.months3 {
+  margin: 0;
+  width: 42px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  height: 13px;
+  flex-shrink: 0;
+}
+.pet-group,
+.pet-set1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.pet-group {
+  flex-direction: column;
+}
+.location6,
+.months7 {
+  margin: 0;
+  width: 43px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.months7 {
+  width: 48px;
+  font-weight: 300;
+  height: 13px;
+}
+.pet-group1,
+.pet-list {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pet-group1 {
+  display: flex;
+  gap: var(--gap-21xl);
+}
+.pet-list {
+  align-self: stretch;
+  flex: 1;
+}
+.pet-list,
+.pet-set4 {
+  display: flex;
+  gap: var(--gap-21xl);
+}
+.adopt-dog-page,
+.adoption-page,
+.pet-list1,
+.pet-set4 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pet-list1 {
+  width: 268px;
+  height: 2680px;
+  display: none;
+  gap: var(--gap-21xl);
+}
+.adopt-dog-page,
+.adoption-page {
+  display: flex;
+}
+.adoption-page {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 1656px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs) var(--padding-358xl);
+  box-sizing: border-box;
+  gap: var(--gap-15xl);
+}
+.adopt-dog-page {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-k2d);
+}
+@media screen and (max-width: 1200px) {
+  .buttons {
+    height: 50px;
+  }
+  .adoption-page {
+    height: 1700px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header3 {
+    width: 960px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-11xl);
+    padding-top: var(--padding-16xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .adoption-heading {
+    font-size: var(--font-size-31xl);
+  }
+  .buttons {
+    width: 685px;
+    height: 60px;
+  }
+  .adopt-dog-page {
+    width: 960px;
+    height: 1729px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo-icon4 {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-name4 {
+    font-size: var(--font-size-mini);
+  }
+  .logo3 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .about3,
+  .home3,
+  .profile3 {
+    font-size: var(--font-size-xs);
+  }
+  .links3 {
+    width: 190px;
+    flex-direction: row;
+    gap: var(--gap-3xl-5);
+    padding-left: 0;
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .header3,
+  .links3,
+  .nav3 {
+    align-items: center;
+    justify-content: center;
+  }
+  .nav3 {
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .header3 {
+    align-self: stretch;
+    width: auto;
+  }
+  .adoption-heading {
+    font-size: var(--font-size-16xl);
+    text-align: center;
+    width: 420px;
+  }
+  .adoption-text {
+    font-size: var(--font-size-3xs);
+    width: 380px;
+    align-self: center;
+  }
+  .adoption-head {
+    width: 420px;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: center;
+  }
+  .dog-button:active {
+    background-color: var(--color-lightblue-200);
+  }
+  .buttons {
+    width: 460px;
+    height: 60px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .pet-set {
+    width: 420px;
+    gap: var(--gap-21xl);
+    column-gap: 20;
+  }
+  .pet-group,
+  .pet-set,
+  .pet-set1 {
+    flex-direction: column;
+  }
+  .pet-list {
+    display: none;
+    align-self: center;
+  }
+  .pet-list,
+  .pet-list1,
+  .pet-set4 {
+    width: 420px;
+    flex-direction: column;
+    gap: var(--gap-21xl);
+  }
+  .pet-set4 {
+    column-gap: 20;
+  }
+  .pet-list1 {
+    display: flex;
+    flex: 1;
+    align-self: center;
+  }
+  .adoption-page {
+    width: 420px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .adopt-dog-page {
+    width: 420px;
+    height: 3000px;
+  }
+}

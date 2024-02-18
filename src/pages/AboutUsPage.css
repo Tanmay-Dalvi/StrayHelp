@@ -1,0 +1,417 @@
+.logo-icon8 {
+  width: 36.6px;
+  position: relative;
+  border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.logo-name8,
+.logo7 {
+  height: 42px;
+  flex-shrink: 0;
+}
+.logo-name8 {
+  margin: 0;
+  width: 148.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.logo7 {
+  width: 185px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.home7 {
+  width: 40px;
+}
+.about7:hover,
+.home7:hover,
+.profile7:hover {
+  color: var(--color-deepskyblue-200);
+}
+.about7,
+.home7,
+.profile7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about7 {
+  width: 44px;
+  height: 21px;
+}
+.profile7 {
+  width: 48px;
+}
+.links7 {
+  width: 177px;
+  height: 21px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: var(--gap-3xl-5);
+}
+.header7,
+.links7,
+.nav7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav7 {
+  flex: 1;
+  height: 42px;
+  justify-content: space-between;
+}
+.header7 {
+  margin: 0;
+  align-self: stretch;
+  height: 155px;
+  background-color: var(--color-paleturquoise);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-81xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-k2d);
+}
+.about-strayhelp {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  height: 62px;
+}
+.head {
+  width: 1362px;
+  height: 107px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-to-strayhelp {
+  display: block;
+}
+.main-text,
+.welcome-to-strayhelp-container {
+  height: 546px;
+  display: flex;
+  align-items: center;
+}
+.welcome-to-strayhelp-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+}
+.main-text {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.explore-services {
+  margin: 0;
+  width: 1362px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.rescue2 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: left;
+}
+.vector-icon30,
+.vector-icon31 {
+  position: absolute;
+  height: 4.17%;
+  width: 58.33%;
+  top: 50%;
+  right: 20.83%;
+  bottom: 45.83%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon31 {
+  height: 58.33%;
+  width: 29.17%;
+  top: 20.83%;
+  bottom: 20.83%;
+  left: 50%;
+}
+.arrow-right {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rescue-button {
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+.adopt-button:hover,
+.donate-button:hover,
+.rescue-button:hover,
+.volunteer-button:hover {
+  background-color: var(--color-paleturquoise);
+}
+.adopt-button,
+.donate-button,
+.rescue-button {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0 var(--padding-9xs);
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.adopt-button {
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 57px;
+}
+.donate-button {
+  width: 152px;
+  gap: 44px;
+}
+.buttons2,
+.donate-button,
+.volunteer-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.volunteer-button {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0 var(--padding-9xs);
+  background-color: var(--color-gainsboro-200);
+  width: 152px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 31px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-smi);
+}
+.buttons2 {
+  align-self: stretch;
+  height: 49px;
+  gap: var(--gap-sm);
+}
+.about-us,
+.about-us-page,
+.bottom-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-btn {
+  align-self: stretch;
+  height: 118px;
+  justify-content: space-between;
+  font-size: var(--font-size-13xl);
+}
+.about-us,
+.about-us-page {
+  overflow: hidden;
+}
+.about-us {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 941px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-20xl);
+  box-sizing: border-box;
+  gap: 24px;
+}
+.about-us-page {
+  width: 100%;
+  position: relative;
+  height: 1096px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-deepskyblue-100);
+  font-family: var(--font-k2d);
+}
+@media screen and (max-width: 1200px) {
+  .welcome-to-strayhelp-container {
+    font-size: var(--font-size-lg);
+    text-align: left;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header7 {
+    width: 960px;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .about-strayhelp {
+    font-size: 38px;
+  }
+  .welcome-to-strayhelp-container {
+    font-size: var(--font-size-mini);
+    height: 600px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo-icon8 {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-name8 {
+    font-size: var(--font-size-mini);
+  }
+  .logo7 {
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .about7,
+  .home7,
+  .profile7 {
+    font-size: var(--font-size-xs);
+  }
+  .links7 {
+    width: 190px;
+    flex-direction: row;
+    gap: var(--gap-3xl-5);
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: var(--padding-6xl);
+  }
+  .header7,
+  .links7,
+  .nav7 {
+    box-sizing: border-box;
+  }
+  .nav7 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header7 {
+    width: 420px;
+    height: 60px;
+    gap: var(--gap-859xl);
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-3xs);
+  }
+  .about-strayhelp {
+    font-size: var(--font-size-xl);
+  }
+  .head {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .welcome-to-strayhelp-container {
+    font-size: var(--font-size-5xs);
+    text-align: center;
+    display: flex;
+    width: 350px;
+    align-self: stretch;
+    height: auto;
+  }
+  .main-text {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .explore-services {
+    font-size: var(--font-size-xl);
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .rescue2 {
+    font-size: var(--font-size-base);
+  }
+  .arrow-right {
+    display: none;
+  }
+  .adopt-button,
+  .donate-button,
+  .rescue-button,
+  .volunteer-button {
+    width: 100px;
+    height: 25px;
+  }
+  .buttons2 {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    padding-top: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .about-us,
+  .bottom-btn,
+  .buttons2 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .bottom-btn {
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-0);
+    padding-top: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .about-us {
+    height: 1040px;
+  }
+}

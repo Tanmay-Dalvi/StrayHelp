@@ -1,0 +1,138 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.user-profile-icon {
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  height: 50px;
+  object-fit: cover;
+}
+.user-name {
+  margin: 0;
+  position: relative;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.become-volunteer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.become-volunteer:hover {
+  color: var(--color-deepskyblue-100);
+}
+.drawer-menu {
+  width: 281px;
+  height: 190px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+}
+.sign-out {
+  width: 55px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 18px;
+  flex-shrink: 0;
+}
+.vector-icon46 {
+  width: 10.5px;
+  position: relative;
+  max-height: 100%;
+}
+.vector-icon47 {
+  width: 5.3px;
+  position: relative;
+  height: 10.5px;
+  margin-left: -4px;
+}
+.arrow-right4 {
+  width: 19.8px;
+  height: 18.5px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.arrow-right4,
+.profile13,
+.signout {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.signout {
+  cursor: pointer;
+  border: 0.5px solid var(--color-black);
+  padding: 8px var(--padding-4xs);
+  background-color: transparent;
+  width: 96.8px;
+  height: 34.5px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.signout:hover {
+  background-color: rgba(248, 248, 248, 0.45);
+}
+.profile13 {
+  background: linear-gradient(90deg, #a1eeff, #fff);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-xl);
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-k2d);
+}
+.profile13.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}
+@media screen and (max-width: 420px) {
+  .signout {
+    width: 120px;
+  }
+  .profile13 {
+    width: 281px;
+    height: 357px;
+    gap: var(--gap-xl);
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+}
