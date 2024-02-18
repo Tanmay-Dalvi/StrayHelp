@@ -26,7 +26,7 @@ StrayHelp is an open-source project, and we welcome contributions from developer
 ## Support
 If you have any questions, feedback, or suggestions for improving StrayHelp, please don't hesitate to reach out to us. Your support is invaluable in our mission to provide assistance and support to stray animals in need.
 
-## Getting Started
+## Getting started
 To get started with StrayHelp, follow these steps:
 1. Clone the repository to your local machine using the following command:
    ```
