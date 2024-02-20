@@ -203,7 +203,7 @@
 .gender,
 .male {
   margin: 0;
-  width: 38px;
+  width: 42px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -238,16 +238,16 @@
 .bangkok-thailand,
 .location,
 .months {
-  width: 45px;
+  width: 55px;
   font-weight: 300;
 }
 .bangkok-thailand,
 .location {
-  width: 43px;
+  width: 50px;
   font-weight: 500;
 }
 .bangkok-thailand {
-  width: 82px;
+  width: 100px;
   font-weight: 300;
 }
 .pet-details {
@@ -393,11 +393,11 @@
 .months1,
 .new-york-usa,
 .owner-name1 {
-  width: 40px;
+  width: 50px;
 }
 .new-york-usa,
 .owner-name1 {
-  width: 67px;
+  width: 70px;
 }
 .owner-name1 {
   width: 54px;

@@ -203,7 +203,7 @@
 .gender16,
 .male8 {
   margin: 0;
-  width: 38px;
+  width: 40px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -228,7 +228,7 @@
 .los-angelas-usa,
 .months16 {
   margin: 0;
-  width: 23px;
+  width: 30px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -238,12 +238,12 @@
 .location16,
 .los-angelas-usa,
 .months16 {
-  width: 45px;
+  width: 50px;
   font-weight: 300;
 }
 .location16,
 .los-angelas-usa {
-  width: 43px;
+  width: 45px;
   font-weight: 500;
 }
 .los-angelas-usa {
@@ -384,7 +384,7 @@
 .female8,
 .vancouver-canada {
   margin: 0;
-  width: 31px;
+  width: 40px;
   position: relative;
   font-weight: 300;
   display: inline-block;
@@ -392,7 +392,7 @@
   flex-shrink: 0;
 }
 .vancouver-canada {
-  width: 84px;
+  width: 97px;
 }
 .pet-set8 {
   display: flex;
@@ -416,7 +416,7 @@
 }
 .rome-italy {
   margin: 0;
-  width: 50px;
+  width: 60px;
   position: relative;
   font-weight: 300;
 }
