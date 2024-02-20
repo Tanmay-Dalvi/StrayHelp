@@ -247,12 +247,12 @@
   font-weight: 500;
 }
 .los-angelas-usa {
-  width: 79px;
+  width: 90px;
   font-weight: 300;
 }
 .pet-details16 {
   width: 128px;
-  height: 49px;
+  /* height: 49px; */
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
@@ -291,7 +291,7 @@
 }
 .owner-name16 {
   margin: 0;
-  width: 56px;
+  width: 66px;
   position: relative;
   font-weight: 300;
   display: inline-block;
@@ -392,7 +392,7 @@
   flex-shrink: 0;
 }
 .vancouver-canada {
-  width: 97px;
+  width: 102px;
 }
 .pet-set8 {
   display: flex;
@@ -403,7 +403,7 @@
 }
 .months18 {
   margin: 0;
-  width: 42px;
+  width: 49px;
   position: relative;
   font-weight: 300;
 }
@@ -421,7 +421,7 @@
   font-weight: 300;
 }
 .owner-name18 {
-  width: 59px;
+  width: 65px;
 }
 .owner-name18,
 .paris-france2 {
@@ -444,7 +444,7 @@
 .owner-name20,
 .owner-name21 {
   margin: 0;
-  width: 62px;
+  width: 65px;
   position: relative;
   font-weight: 300;
   display: inline-block;
@@ -453,17 +453,17 @@
 }
 .owner-name20,
 .owner-name21 {
-  width: 61px;
+  width: 65px;
 }
 .owner-name21 {
-  width: 52px;
+  width: 65px;
 }
 .location22,
 .moscow-russia,
 .owner-name22,
 .owner-name23 {
   margin: 0;
-  width: 43px;
+  width: 47px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -478,10 +478,10 @@
 }
 .owner-name22,
 .owner-name23 {
-  width: 67px;
+  width: 70px;
 }
 .owner-name23 {
-  width: 54px;
+  width: 60px;
 }
 .pet-group5,
 .pet-list2 {
