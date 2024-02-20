@@ -228,7 +228,7 @@
 .location,
 .months {
   margin: 0;
-  width: 23px;
+  width: 30px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -243,7 +243,7 @@
 }
 .bangkok-thailand,
 .location {
-  width: 50px;
+  width: 40px;
   font-weight: 500;
 }
 .bangkok-thailand {
@@ -252,7 +252,7 @@
 }
 .pet-details {
   width: 128px;
-  height: 49px;
+  /* height: 49px; */
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
@@ -400,7 +400,7 @@
   width: 70px;
 }
 .owner-name1 {
-  width: 54px;
+  width: 64px;
 }
 .pet-set {
   display: flex;
@@ -411,7 +411,7 @@
 }
 .months3 {
   margin: 0;
-  width: 42px;
+  width: 45px;
   position: relative;
   font-weight: 300;
   display: inline-block;
@@ -432,14 +432,14 @@
 .location6,
 .months7 {
   margin: 0;
-  width: 43px;
+  width: 48px;
   position: relative;
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
 }
 .months7 {
-  width: 48px;
+  width: 50px;
   font-weight: 300;
   height: 13px;
 }
