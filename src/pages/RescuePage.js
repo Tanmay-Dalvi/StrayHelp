@@ -25,7 +25,7 @@ const RescuePage = () => {
   }, []);
 
   const onContactDrClick = useCallback(() => {
-    navigate("/our-doctors");
+    navigate("/doctors-page");
   }, [navigate]);
 
   const onHelpBtnClick = useCallback(() => {
