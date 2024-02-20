@@ -79,7 +79,7 @@ const ContactVolPage = () => {
                 <img
                   className="vlntr-img-icon"
                   alt=""
-                  src="/vlntr-img@2x.png"
+                  src="/vlntr-img4@2x.png"
                 />
                 <p className="vlntr-name">Mr. Oliver Jenkins</p>
               </div>
@@ -98,7 +98,7 @@ const ContactVolPage = () => {
                 <img
                   className="vlntr-img-icon1"
                   alt=""
-                  src="/vlntr-img@2x.png"
+                  src="/vlntr-img7@2x.png"
                 />
                 <p className="vlntr-name1">Mr. David Rodrigez</p>
               </div>
