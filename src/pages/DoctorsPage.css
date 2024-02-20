@@ -113,7 +113,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  gap: var(--gap-21xl);
+  gap: var(--gap-20xl);
   text-align: left;
   color: var(--color-deepskyblue-100);
 }
