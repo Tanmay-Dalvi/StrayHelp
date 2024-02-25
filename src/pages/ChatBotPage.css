@@ -103,6 +103,8 @@
     position: relative;
     display: inline-block;
     height: 52px;
+    font-size: 50px;
+    margin-bottom: 10px;
   }
   .the-chatbot-buddy {
     font-size: var(--font-size-mini);
