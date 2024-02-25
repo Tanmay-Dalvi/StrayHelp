@@ -94,6 +94,7 @@
 }
 .get-info-of,
 .scan-qr1 {
+  font-size: 55px;
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -215,9 +216,13 @@
   height: 14px;
   overflow: hidden;
   flex-shrink: 0;
+  margin: auto;
+  margin-left: 10px;
 }
 .upload-image1 {
-  margin: 0;
+  margin: auto;
+  margin-right: 10px;
+  margin-bottom: 6px;
   width: 85px;
   position: relative;
   font-size: var(--font-size-sm);
@@ -258,6 +263,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 43px 96px;
+  margin-top: 65px;
 }
 .qr-page {
   width: 100%;
