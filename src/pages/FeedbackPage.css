@@ -13,9 +13,10 @@
   font-weight: 500;
   display: inline-block;
   flex-shrink: 0;
+  height: 45px;
 }
 .logo1 {
-  width: 185px;
+  width: 195px;
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
