@@ -39,6 +39,10 @@ const LandingPage = () => {
     navigate("/adopt-dog-page");
   }, [navigate]);
 
+  const onDonateBtnClick = useCallback(() => {
+    navigate("/donation-page");
+  }, [navigate]);
+
   const onVolunteerBtnClick = useCallback(() => {
     navigate("/volunteer-page");
   }, [navigate]);
@@ -158,7 +162,7 @@ const LandingPage = () => {
             <img className="adopt-img-icon" alt="" src="/adopt-img@2x.png" />
           </div>
           <div className="donate">
-            <button className="donate-btn">
+            <button className="donate-btn" onClick={onDonateBtnClick}>
               <p className="donate1">Donate</p>
             </button>
             <p className="donate-txt">

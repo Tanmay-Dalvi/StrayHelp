@@ -9,11 +9,8 @@ const ChatbotPage = () => {
   const [isProfile1Open, setProfile1Open] = useState(false);
 
   const onHomeClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='home']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onAboutClick = useCallback(() => {
     navigate("/about-us-page");
