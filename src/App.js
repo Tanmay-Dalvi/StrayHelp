@@ -18,6 +18,8 @@ import SignInPage from "./pages/SignInPage";
 import RescuePage1 from "./pages/RescuePage1";
 import RescuePage from "./pages/RescuePage";
 import ContactVolPage from "./pages/ContactVolPage";
+import QrPage from "./pages/QrPage";
+import ChatBotPage from "./pages/ChatBotPage";
 
 function App() {
   const action = useNavigationType();
@@ -87,6 +89,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/qr-page":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/chatbot-page":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -118,6 +128,8 @@ function App() {
       <Route path="/rescue-page-1" element={<RescuePage1 />} />
       <Route path="/rescue-page-2" element={<RescuePage />} />
       <Route path="/contact-vol-page" element={<ContactVolPage />} />
+      <Route path="/qr-page" element={<QrPage />} />
+      <Route path="/chatbot-page" element={<ChatBotPage />} />
     </Routes>
   );
 }

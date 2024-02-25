@@ -12,7 +12,7 @@
   position: relative;
   font-weight: 500;
   display: inline-block;
-  height: 45px;
+  height: 42px;
   flex-shrink: 0;
 }
 .logo {
@@ -23,7 +23,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-8xs);
+  gap: 0 5px;
 }
 .home {
   width: 40px;
@@ -61,7 +61,7 @@
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-end;
-  gap: var(--gap-3xl-5);
+  gap: 0 22.5px;
 }
 .header,
 .links,
@@ -121,7 +121,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-xs);
+  gap: 12px 0;
 }
 .join-us {
   position: relative;
@@ -157,7 +157,7 @@
   align-self: stretch;
   flex-direction: column;
   justify-content: center;
-  gap: var(--gap-xs);
+  gap: 12px 0;
   font-size: var(--font-size-11xl);
 }
 .heading-2,
@@ -184,7 +184,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-3xl);
+  gap: 22px 0;
 }
 .motive-img1-icon {
   width: 130px;
@@ -204,13 +204,13 @@
   height: 129px;
   flex-shrink: 0;
   flex-direction: row;
-  gap: var(--gap-3xs);
+  gap: 0 10px;
 }
 .our-motive {
   align-self: stretch;
   flex-direction: column;
   padding: var(--padding-3xs) 0;
-  gap: var(--gap-xs);
+  gap: 12px 0;
 }
 .heading-3 {
   margin: 0;
@@ -254,6 +254,7 @@
 .adopt-btn:hover,
 .contact-dr-btn:hover,
 .donate-btn:hover,
+.qr-square:hover,
 .rescue-btn:hover,
 .review-button:hover {
   background-color: var(--color-lightblue-100);
@@ -369,7 +370,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-13xl);
+  gap: 32px 0;
   text-align: left;
   font-size: var(--font-size-smi);
   color: var(--color-black);
@@ -463,26 +464,40 @@
 }
 .text {
   margin: 0;
-  width: 850px;
+  align-self: stretch;
   position: relative;
   font-size: var(--font-size-base);
   text-transform: capitalize;
   font-weight: 300;
   color: var(--color-black);
-  display: inline-block;
-  height: 114px;
-  flex-shrink: 0;
 }
 .impact-text {
   align-self: stretch;
   flex: 1;
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
-  gap: var(--gap-3xl);
+  align-items: center;
+  justify-content: center;
+  gap: 22px 0;
 }
-.impact-text,
+.review-website {
+  width: 112px;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
 .our-impact,
 .review-button {
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -492,15 +507,86 @@
   border: 0;
   padding: var(--padding-6xs) 42px;
   background-color: var(--color-paleturquoise);
+  width: 196px;
   border-radius: var(--br-3xs);
+  height: 35px;
   flex-direction: row;
+  box-sizing: border-box;
 }
 .our-impact {
   align-self: stretch;
   height: 284px;
-  flex-shrink: 0;
   flex-direction: column;
-  gap: var(--gap-6xl);
+  gap: 25px 0;
+}
+.qr-code-codes-tags-code-qr-icon {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.qr-square {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-paleturquoise);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.scan-qr {
+  margin: 0;
+  width: 58px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+}
+.qr-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 60px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.woofie {
+  margin: 0;
+  width: 46px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-k2d);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+}
+.new-btns {
+  align-self: stretch;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 80px;
 }
 .logo-icon1 {
   width: 35px;
@@ -522,7 +608,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-xs);
+  gap: 0 12px;
 }
 .facebook,
 .instagram,
@@ -558,7 +644,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-13xl);
+  gap: 0 32px;
 }
 .footer,
 .landing-page {
@@ -571,12 +657,12 @@
 .footer {
   align-self: stretch;
   background-color: var(--color-paleturquoise);
-  height: 108px;
+  height: 109px;
   flex-shrink: 0;
   justify-content: flex-end;
   padding: var(--padding-8xs) 596px var(--padding-3xs);
   box-sizing: border-box;
-  gap: var(--gap-xs);
+  gap: 12px 0;
   text-align: left;
   font-size: 36px;
   color: var(--color-black);
@@ -585,9 +671,9 @@
   width: 100%;
   position: relative;
   background-color: var(--color-white);
-  height: 3392px;
-  justify-content: flex-start;
-  gap: var(--gap-34xl);
+  height: 3600px;
+  justify-content: center;
+  gap: 63px 0;
   text-align: center;
   font-size: var(--font-size-13xl);
   color: var(--color-deepskyblue-100);
@@ -670,7 +756,7 @@
   .links {
     width: 190px;
     flex-direction: row;
-    gap: var(--gap-3xl-5);
+    gap: 0 22.5px;
     align-items: center;
     justify-content: center;
     padding-left: 0;
@@ -688,7 +774,7 @@
   .header {
     width: 420px;
     height: 60px;
-    gap: var(--gap-859xl);
+    gap: 0 878px;
     align-items: center;
     justify-content: center;
     padding: 0 0 0 var(--padding-3xs);
@@ -709,7 +795,7 @@
   }
   .hero-text {
     width: 400px;
-    gap: var(--gap-xs);
+    gap: 12px 0;
   }
   .text-2 {
     font-size: var(--font-size-sm);
@@ -782,7 +868,7 @@
   .landing-page {
     width: 420px;
     height: auto;
-    gap: var(--gap-34xl);
+    gap: 63px 0;
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 0;

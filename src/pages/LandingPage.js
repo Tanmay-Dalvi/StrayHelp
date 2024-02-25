@@ -39,11 +39,6 @@ const LandingPage = () => {
     navigate("/adopt-dog-page");
   }, [navigate]);
 
-  const onDonationBtnClick = useCallback(() => {
-    navigate("/donation-page");
-  }, [navigate]);
-
-
   const onVolunteerBtnClick = useCallback(() => {
     navigate("/volunteer-page");
   }, [navigate]);
@@ -54,6 +49,14 @@ const LandingPage = () => {
 
   const onReviewButtonClick = useCallback(() => {
     navigate("/feedback-page");
+  }, [navigate]);
+
+  const onQRBtnClick = useCallback(() => {
+    navigate("/qr-page");
+  }, [navigate]);
+
+  const onChatBotClick = useCallback(() => {
+    navigate("/chatbot-page");
   }, [navigate]);
 
   return (
@@ -155,7 +158,7 @@ const LandingPage = () => {
             <img className="adopt-img-icon" alt="" src="/adopt-img@2x.png" />
           </div>
           <div className="donate">
-            <button className="donate-btn" onClick={onDonationBtnClick}>
+            <button className="donate-btn">
               <p className="donate1">Donate</p>
             </button>
             <p className="donate-txt">
@@ -224,7 +227,29 @@ const LandingPage = () => {
             </p>
           </div>
           <button className="review-button" onClick={onReviewButtonClick}>
-            <div className="contact-doctors">Review Website</div>
+            <div className="review-website">Review Website</div>
+          </button>
+        </div>
+        <div className="new-btns">
+          <button className="qr-btn" onClick={onQRBtnClick}>
+            <button className="qr-square">
+              <img
+                className="qr-code-codes-tags-code-qr-icon"
+                alt=""
+                src="/qrlogo.svg"
+              />
+            </button>
+            <p className="scan-qr">Scan QR</p>
+          </button>
+          <button className="qr-btn" onClick={onChatBotClick}>
+            <button className="qr-square">
+              <img
+                className="qr-code-codes-tags-code-qr-icon"
+                alt=""
+                src="/chatbotlogo.svg"
+              />
+            </button>
+            <p className="woofie">Woofie</p>
           </button>
         </div>
         <footer className="footer">

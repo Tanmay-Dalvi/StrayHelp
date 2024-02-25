@@ -1,0 +1,206 @@
+.logo-icon15 {
+    width: 36.6px;
+    position: relative;
+    border-radius: 50%;
+    height: 36px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+  }
+  .logo-name15,
+  .logo14 {
+    height: 42px;
+    flex-shrink: 0;
+  }
+  .logo-name15 {
+    margin: 0;
+    width: 148.3px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .logo14 {
+    width: 185px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 5px;
+  }
+  .home14 {
+    width: 40px;
+  }
+  .about14:hover,
+  .home14:hover,
+  .profile14:hover {
+    color: var(--color-deepskyblue-200);
+  }
+  .about14,
+  .home14,
+  .profile14 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-k2d);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .about14 {
+    width: 44px;
+    height: 21px;
+  }
+  .profile14 {
+    width: 48px;
+  }
+  .links14,
+  .nav14 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .links14 {
+    width: 177px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    gap: 0 22.5px;
+  }
+  .nav14 {
+    flex: 1;
+    height: 42px;
+    justify-content: space-between;
+  }
+  .header14,
+  .the-chatbot-buddy,
+  .woofie1 {
+    margin: 0;
+    align-self: stretch;
+    flex-shrink: 0;
+  }
+  .header14 {
+    height: 155px;
+    background-color: var(--color-paleturquoise);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-81xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-k2d);
+  }
+  .the-chatbot-buddy,
+  .woofie1 {
+    position: relative;
+    display: inline-block;
+    height: 52px;
+  }
+  .the-chatbot-buddy {
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    height: 20px;
+  }
+  .chatbot-heading,
+  .chatbot-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chatbot-heading {
+    align-self: stretch;
+    height: 74px;
+    justify-content: center;
+    gap: 2px 0;
+  }
+  .chatbot-page {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 900px;
+    overflow: hidden;
+    justify-content: flex-start;
+    gap: 28px 0;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-deepskyblue-100);
+    font-family: var(--font-k2d);
+  }
+  @media screen and (max-width: 960px) {
+    .header14 {
+      width: 960px;
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .logo-icon15 {
+      width: 20px;
+      height: 20px;
+    }
+    .logo-name15 {
+      font-size: var(--font-size-mini);
+      width: 50px;
+      height: 15px;
+    }
+    .logo14 {
+      gap: 0 5px;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      align-self: center;
+    }
+    .about14,
+    .home14,
+    .profile14 {
+      font-size: var(--font-size-xs);
+    }
+    .links14 {
+      width: 190px;
+      flex-direction: row;
+      gap: 0 22.5px;
+      align-items: center;
+      justify-content: center;
+      padding-left: var(--padding-3xs);
+      padding-right: var(--padding-8xl);
+    }
+    .header14,
+    .links14,
+    .nav14 {
+      box-sizing: border-box;
+    }
+    .nav14 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .header14 {
+      width: 420px;
+      height: 60px;
+      gap: 0 878px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0 0 var(--padding-3xs);
+    }
+    .woofie1 {
+      font-size: var(--font-size-11xl);
+    }
+    .the-chatbot-buddy {
+      font-size: var(--font-size-3xs);
+    }
+    .chatbot-heading {
+      gap: 2px 0;
+      row-gap: 0;
+    }
+  }
+  
