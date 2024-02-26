@@ -9,8 +9,11 @@ const ChatbotPage = () => {
   const [isProfile1Open, setProfile1Open] = useState(false);
 
   const onHomeClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
+    const anchor = document.querySelector("[data-scroll-to='home']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
 
   const onAboutClick = useCallback(() => {
     navigate("/about-us-page");
@@ -49,6 +52,43 @@ const ChatbotPage = () => {
         <div className="chatbot-heading">
           <p className="woofie1">Woofie</p>
           <p className="the-chatbot-buddy">The chatbot buddy</p>
+        </div>
+        <div className="chat-box">
+          <div className="chat-box-header">
+            <div className="box-head">
+              <div className="chat-bubble">
+                <img
+                  className="chat-bubble-typing-oval-messa-icon"
+                  alt=""
+                  src="/chatbubble.svg"
+                />
+              </div>
+              <div className="chat-with-woofie">
+                <img
+                  className="woofie-img-icon"
+                  alt=""
+                  src="/woofieimg.webp"
+                />
+                <p className="woofie-txt">Chat with WOOFIE..</p>
+              </div>
+            </div>
+          </div>
+          <div className="chat-box-footer">
+            <input className="chat-input" type="text" />
+            <button className="send-chat">
+              <img
+                className="mail-send-email-message-send-icon"
+                alt=""
+                src="/sendchat.svg"
+              />
+            </button>
+          </div>
+          <div className="woofie-chat">
+            <p className="hey-there-how">Hey there! How can I help you?</p>
+          </div>
+          <div className="user-chat">
+            <p className="hey-there-how">Hi!</p>
+          </div>
         </div>
       </div>
       {isProfile1Open && (
