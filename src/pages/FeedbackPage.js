@@ -27,20 +27,20 @@ const FeedbackPage = () => {
   return (
     <>
       <div className="feedback-page">
-        <nav className="header1">
-          <div className="nav1">
-            <div className="logo1">
-              <img className="logo-icon2" alt="" src="/logo-icon@2x.png" />
-              <p className="logo-name2">StrayHelp</p>
+        <nav className="header14">
+          <div className="nav14">
+            <div className="logo14">
+              <img className="logo-icon15" alt="" src="/logo-icon@2x.png" />
+              <p className="logo-name15">StrayHelp</p>
             </div>
-            <div className="links1">
-              <button className="home1" onClick={onHomeClick}>
+            <div className="links14">
+              <button className="home14" onClick={onHomeClick}>
                 Home
               </button>
-              <button className="about1" onClick={onAboutClick}>
+              <button className="about14" onClick={onAboutClick}>
                 About
               </button>
-              <button className="profile1" onClick={openProfile1}>
+              <button className="profile14" onClick={openProfile1}>
                 Profile
               </button>
             </div>
@@ -50,6 +50,7 @@ const FeedbackPage = () => {
           <div className="feedback-wrapper">
             <h1 className="feedback">Feedback</h1>
           </div>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCbXBMK3-gEVwOHGHpznd6_-F3s3AxWc7cTL2M2P3y7YPx8A/viewform?embedded=true" width="640" height="1178" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
       {isProfile1Open && (
